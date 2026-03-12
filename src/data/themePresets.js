@@ -1,0 +1,91 @@
+const createPalette = (overrides = {}) => ({
+  charcoal: '#08090c',
+  ember: '#ff5a1f',
+  crimson: '#8f0e1f',
+  copper: '#c98a41',
+  fog: '#f6efe4',
+  bgStart: '#040406',
+  bgMid: '#0a0d12',
+  bgEnd: '#110a0a',
+  bgSpotOne: '#ff5a1f',
+  bgSpotTwo: '#8f0e1f',
+  panelTintOne: '#ff7e3e',
+  panelTintTwo: '#c98a41',
+  glassDark: '#060608',
+  glassBorder: '#ffa25d',
+  headerStart: '#040508',
+  headerEnd: '#040508',
+  headerBorder: '#ff934a',
+  glowOne: '#ff5a1f',
+  glowTwo: '#8f0e1f',
+  fieldBg: '#08090c',
+  ...overrides
+});
+
+export const BASE_THEME_COLORS = createPalette();
+
+export const THEME_PRESETS = [
+  {
+    id: 'inferno-red-black',
+    name: { en: 'Inferno Red', ar: 'الأحمر الداكن' },
+    description: { en: 'Red + black cinematic mood', ar: 'ثيم أحمر مع أسود مثل النمط الحالي' },
+    colors: createPalette()
+  },
+  {
+    id: 'sapphire-gold',
+    name: { en: 'Sapphire Gold', ar: 'أزرق مع أصفر' },
+    description: { en: 'Blue tones with warm yellow accents', ar: 'تدرجات زرقاء مع لمسات صفراء' },
+    colors: createPalette({
+      charcoal: '#071220',
+      ember: '#2f7eff',
+      crimson: '#1f4ca1',
+      copper: '#ffd24f',
+      fog: '#eef5ff',
+      bgStart: '#020814',
+      bgMid: '#081935',
+      bgEnd: '#0e2a52',
+      bgSpotOne: '#2f7eff',
+      bgSpotTwo: '#ffd24f',
+      panelTintOne: '#2f7eff',
+      panelTintTwo: '#ffd24f',
+      glassDark: '#071425',
+      glassBorder: '#6fa5ff',
+      headerStart: '#061124',
+      headerEnd: '#061124',
+      headerBorder: '#6fa5ff',
+      glowOne: '#2f7eff',
+      glowTwo: '#ffd24f',
+      fieldBg: '#08172c'
+    })
+  },
+  {
+    id: 'ivory-gold',
+    name: { en: 'Ivory Gold', ar: 'أبيض ذهبي' },
+    description: { en: 'Ivory and soft gold premium look', ar: 'ثيم عاجي مع ذهبي خفيف' },
+    colors: createPalette({
+      charcoal: '#1f1910',
+      ember: '#e4b451',
+      crimson: '#9f7720',
+      copper: '#f4d892',
+      fog: '#fff5de',
+      bgStart: '#120f0a',
+      bgMid: '#2d2315',
+      bgEnd: '#46331b',
+      bgSpotOne: '#f0c56d',
+      bgSpotTwo: '#fff1c4',
+      panelTintOne: '#f0c56d',
+      panelTintTwo: '#fff1c4',
+      glassDark: '#20180f',
+      glassBorder: '#f0c56d',
+      headerStart: '#1a140d',
+      headerEnd: '#1a140d',
+      headerBorder: '#f0c56d',
+      glowOne: '#f0c56d',
+      glowTwo: '#fff1c4',
+      fieldBg: '#231c12'
+    })
+  }
+];
+
+export const getThemePresetById = (presetId) => THEME_PRESETS.find((preset) => preset.id === presetId) ?? null;
+
