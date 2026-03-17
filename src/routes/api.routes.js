@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import { adminAuthRouter } from '../modules/admin-auth/adminAuth.routes.js';
 import { inquiriesRouter } from '../modules/inquiries/inquiries.routes.js';
 import { siteDataRouter } from '../modules/site-data/siteData.routes.js';
 import { testimonialsRouter } from '../modules/testimonials/testimonials.routes.js';
@@ -15,6 +16,7 @@ apiRouter.get('/health', (req, res) => {
 });
 
 apiRouter.use('/site-data', siteDataRouter);
+apiRouter.use('/admin-auth', adminAuthRouter);
 apiRouter.use('/uploads', uploadsRouter);
 apiRouter.use('/testimonials', testimonialsRouter);
 apiRouter.use('/', inquiriesRouter);

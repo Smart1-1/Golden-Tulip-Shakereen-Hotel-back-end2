@@ -1,6 +1,8 @@
 import { cloneDefaultSiteData } from './defaults.js';
 
-const LEGACY_SITE_NAME_VALUES = new Set(['luxurious inferno']);
+const LEGACY_SITE_NAME_VALUES = new Set(['luxurious inferno', 'golden tulip shakereen hotel']);
+
+export const isObject = (value) => value && typeof value === 'object' && !Array.isArray(value);
 
 const normalizeName = (value) => (typeof value === 'string' ? value.trim().toLowerCase() : '');
 
@@ -10,8 +12,6 @@ const isLegacySiteName = (siteName) => {
   const ar = normalizeName(siteName.ar);
   return LEGACY_SITE_NAME_VALUES.has(en) || LEGACY_SITE_NAME_VALUES.has(ar);
 };
-
-export const isObject = (value) => value && typeof value === 'object' && !Array.isArray(value);
 
 export const deepMerge = (base, override) => {
   if (Array.isArray(base)) {
@@ -38,6 +38,44 @@ const ensureObjectArray = (value, fallback) => {
   return cleaned.length ? cleaned : fallback;
 };
 
+const ensureTextArray = (value, fallback) => {
+  if (!Array.isArray(value)) return fallback;
+  const cleaned = value.filter((entry) => typeof entry === 'string' || isObject(entry));
+  return cleaned.length ? cleaned : fallback;
+};
+
+const ensureRoomType = (roomType, fallback) => {
+  const merged = deepMerge(fallback, isObject(roomType) ? roomType : {});
+  merged.images = Array.isArray(merged.images) ? merged.images.filter((value) => typeof value === 'string' && value.trim()) : fallback.images;
+  if (!merged.images.length) {
+    merged.images = fallback.images;
+  }
+  merged.amenities = ensureTextArray(merged.amenities, fallback.amenities);
+  merged.availability = ensureObjectArray(merged.availability, fallback.availability);
+  merged.baseRate = Number.isFinite(Number(merged.baseRate)) ? Number(merged.baseRate) : fallback.baseRate;
+  merged.occupancy = Number.isFinite(Number(merged.occupancy)) ? Number(merged.occupancy) : fallback.occupancy;
+  return merged;
+};
+
+const ensureHotel = (hotel, fallback) => {
+  const merged = deepMerge(fallback, isObject(hotel) ? hotel : {});
+  merged.starRating = Math.min(5, Math.max(1, Number(merged.starRating) || fallback.starRating));
+  merged.roomCount = Math.max(0, Number(merged.roomCount) || fallback.roomCount);
+  merged.gallery = ensureObjectArray(merged.gallery, fallback.gallery).filter((image) => typeof image.src === 'string' && image.src.trim());
+  if (!merged.gallery.length) {
+    merged.gallery = fallback.gallery;
+  }
+  merged.amenityHighlights = ensureTextArray(merged.amenityHighlights, fallback.amenityHighlights);
+  merged.reviews = ensureObjectArray(merged.reviews, fallback.reviews);
+  merged.roomTypes = ensureObjectArray(merged.roomTypes, fallback.roomTypes).map((roomType, index) =>
+    ensureRoomType(roomType, fallback.roomTypes[index] ?? fallback.roomTypes[0])
+  );
+  if (!merged.roomTypes.length) {
+    merged.roomTypes = fallback.roomTypes;
+  }
+  return merged;
+};
+
 export const normalizeSiteData = (input) => {
   const defaults = cloneDefaultSiteData();
   const merged = deepMerge(defaults, isObject(input) ? input : {});
@@ -49,9 +87,7 @@ export const normalizeSiteData = (input) => {
   if (!isObject(merged.settings)) {
     merged.settings = defaults.settings;
   } else {
-    merged.settings.theme = isObject(merged.settings.theme)
-      ? { ...defaults.settings.theme, ...merged.settings.theme }
-      : defaults.settings.theme;
+    merged.settings.theme = isObject(merged.settings.theme) ? { ...defaults.settings.theme, ...merged.settings.theme } : defaults.settings.theme;
     merged.settings.animation = isObject(merged.settings.animation)
       ? { ...defaults.settings.animation, ...merged.settings.animation }
       : defaults.settings.animation;
@@ -62,23 +98,23 @@ export const normalizeSiteData = (input) => {
 
   merged.navLinks = ensureObjectArray(merged.navLinks, defaults.navLinks);
   merged.ctaButtons = ensureObjectArray(merged.ctaButtons, defaults.ctaButtons);
-  merged.offers = ensureObjectArray(merged.offers, defaults.offers);
   merged.testimonials = ensureObjectArray(merged.testimonials, defaults.testimonials);
-  merged.faq = ensureObjectArray(merged.faq, defaults.faq);
-  merged.blog = ensureObjectArray(merged.blog, defaults.blog);
-  merged.gallery = ensureObjectArray(merged.gallery, defaults.gallery).filter(
-    (image) => typeof image.src === 'string' && image.src.trim().length > 0
+  merged.hotels = ensureObjectArray(merged.hotels, defaults.hotels).map((hotel, index) =>
+    ensureHotel(hotel, defaults.hotels[index] ?? defaults.hotels[0])
   );
-  if (!merged.gallery.length) {
-    merged.gallery = defaults.gallery;
+  if (!merged.hotels.length) {
+    merged.hotels = defaults.hotels;
   }
 
-  if (!isObject(merged.priceTables)) {
-    merged.priceTables = defaults.priceTables;
+  if (!isObject(merged.company)) {
+    merged.company = defaults.company;
   } else {
-    Object.keys(defaults.priceTables).forEach((key) => {
-      merged.priceTables[key] = ensureObjectArray(merged.priceTables[key], defaults.priceTables[key]);
-    });
+    merged.company = deepMerge(defaults.company, merged.company);
+    merged.company.values = ensureObjectArray(merged.company.values, defaults.company.values);
+    merged.company.services = ensureObjectArray(merged.company.services, defaults.company.services);
+    merged.company.whyChooseUs = ensureObjectArray(merged.company.whyChooseUs, defaults.company.whyChooseUs);
+    merged.company.destinations = ensureObjectArray(merged.company.destinations, defaults.company.destinations);
+    merged.company.stats = ensureObjectArray(merged.company.stats, defaults.company.stats);
   }
 
   if (!isObject(merged.pages)) {
@@ -92,9 +128,6 @@ export const normalizeSiteData = (input) => {
       merged.pages[key].hero = isObject(merged.pages[key].hero)
         ? { ...defaults.pages[key].hero, ...merged.pages[key].hero }
         : defaults.pages[key].hero;
-      if (!Array.isArray(merged.pages[key].sections)) {
-        merged.pages[key].sections = defaults.pages[key].sections;
-      }
     });
   }
 
@@ -112,11 +145,14 @@ export const normalizeSiteData = (input) => {
     merged.seo = defaults.seo;
   } else {
     Object.keys(defaults.seo).forEach((key) => {
-      if (!isObject(merged.seo[key])) {
-        merged.seo[key] = defaults.seo[key];
-      }
+      merged.seo[key] = isObject(merged.seo[key]) ? { ...defaults.seo[key], ...merged.seo[key] } : defaults.seo[key];
     });
   }
+
+  merged.contactInfo = isObject(merged.contactInfo) ? { ...defaults.contactInfo, ...merged.contactInfo } : defaults.contactInfo;
+  merged.searchSettings = isObject(merged.searchSettings)
+    ? { ...defaults.searchSettings, ...merged.searchSettings, cities: ensureObjectArray(merged.searchSettings.cities, defaults.searchSettings.cities) }
+    : defaults.searchSettings;
 
   return merged;
 };

@@ -22,10 +22,12 @@ export const validatePublicTestimonial = (payload) => {
   const fullName = requiredText(payload?.fullName ?? payload?.name, 'fullName', 2, 90);
   const comment = requiredText(payload?.comment ?? payload?.quote, 'comment', 8, 1200);
   const rating = requiredRating(payload?.rating);
+  const hotelId = asText(payload?.hotelId);
 
   return {
     fullName,
     comment,
-    rating
+    rating,
+    hotelId
   };
 };

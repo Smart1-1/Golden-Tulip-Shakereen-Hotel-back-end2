@@ -77,5 +77,8 @@ export const env = {
   s3KeyPrefix: process.env.S3_KEY_PREFIX?.trim() ?? 'uploads',
   s3ForcePathStyle: toBoolean(process.env.S3_FORCE_PATH_STYLE, false),
   adminApiKey: process.env.ADMIN_API_KEY?.trim() ?? '',
+  adminUsername: process.env.ADMIN_USERNAME?.trim() || 'admin',
+  adminPassword: process.env.ADMIN_PASSWORD?.trim() || 'admin123456',
+  adminSessionTtlHours: Math.max(1, toInt(process.env.ADMIN_SESSION_TTL_HOURS, 168)),
   corsOrigins: parseCorsOrigins()
 };

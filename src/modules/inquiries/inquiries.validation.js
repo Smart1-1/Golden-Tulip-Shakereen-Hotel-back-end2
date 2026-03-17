@@ -81,7 +81,9 @@ export const validateBookingRequest = (payload) => {
     checkOut,
     adults: boundedInt(payload?.adults, 'adults', 1, 8),
     children: boundedInt(payload?.children, 'children', 0, 8),
+    hotelId: optionalText(payload?.hotelId, 120),
     roomType: requiredText(payload?.roomType, 'roomType', 1, 120),
+    roomTypeId: optionalText(payload?.roomTypeId, 120),
     notes: optionalText(payload?.notes, 4000)
   };
 };

@@ -1,0 +1,4977 @@
+{
+  "siteName": {
+    "en": "Diyar Al Diwaniyah",
+    "ar": "شركة ديار الديوانية"
+  },
+  "siteTagline": {
+    "en": "Fire & Glass Hospitality House",
+    "ar": "بيت ضيافة النار والزجاج"
+  },
+  "updatedAt": "2026-03-11T01:53:40.075Z",
+  "settings": {
+    "language": "ar",
+    "theme": {
+      "charcoal": "#0040ff",
+      "ember": "#f24607",
+      "crimson": "#2b0d03",
+      "copper": "#f9911a",
+      "fog": "#f6efe4",
+      "bgStart": "#040406",
+      "bgMid": "#0a0d12",
+      "bgEnd": "#110a0a",
+      "bgSpotOne": "#ff5a1f",
+      "bgSpotTwo": "#8f0e1f",
+      "panelTintOne": "#ff7e3e",
+      "panelTintTwo": "#c98a41",
+      "glassDark": "#060608",
+      "glassBorder": "#ffa25d",
+      "headerStart": "#040508",
+      "headerEnd": "#040508",
+      "headerBorder": "#ff934a",
+      "glowOne": "#ff5a1f",
+      "glowTwo": "#8f0e1f",
+      "fieldBg": "#08090c"
+    },
+    "animation": {
+      "enabled": true,
+      "intensity": 0.86,
+      "pageTransitions": true,
+      "parallax": true,
+      "reveal": true
+    }
+  },
+  "navLinks": [
+    {
+      "id": "nav-home",
+      "pageKey": "home",
+      "path": "/",
+      "label": {
+        "en": "Home",
+        "ar": "الرئيسية"
+      },
+      "visible": true,
+      "order": 1
+    },
+    {
+      "id": "nav-about",
+      "pageKey": "about",
+      "path": "/about",
+      "label": {
+        "en": "About",
+        "ar": "عنّا"
+      },
+      "visible": true,
+      "order": 8
+    },
+    {
+      "id": "nav-contact",
+      "pageKey": "contact",
+      "path": "/contact",
+      "label": {
+        "en": "Contact",
+        "ar": "تواصل"
+      },
+      "visible": true,
+      "order": 10
+    }
+  ],
+  "ctaButtons": [
+    {
+      "id": "cta-book",
+      "text": {
+        "en": "Book Now",
+        "ar": "احجز الآن"
+      },
+      "path": "/booking",
+      "visible": true,
+      "style": "primary"
+    },
+    {
+      "id": "cta-offers",
+      "text": {
+        "en": "View Offers",
+        "ar": "شاهد العروض"
+      },
+      "path": "/offers",
+      "visible": true,
+      "style": "ghost"
+    }
+  ],
+  "pageVisibility": {
+    "home": true,
+    "hotels": true,
+    "destinations": true,
+    "services": true,
+    "about": true,
+    "whyChooseUs": true,
+    "contact": true,
+    "rooms": true,
+    "suites": true,
+    "gallery": true,
+    "offers": true,
+    "dining": true,
+    "experiences": true,
+    "blog": true,
+    "booking": true,
+    "faq": true
+  },
+  "seo": {
+    "home": {
+      "title": {
+        "en": "Where Fire Meets Glass in Absolute Silence",
+        "ar": "حيث يلتقي اللهيب بالزجاج في صمت مطلق"
+      },
+      "description": {
+        "en": "This destination is engineered as an emotional sequence. Every corridor, lounge, and room is calibrated to carry a signature rhythm of contrast, warmth, and controlled drama.",
+        "ar": "هذه الوجهة مصممة كتسلسل شعوري. كل ممر وصالة وغرفة مضبوطة لتحمل إيقاعًا مميزًا من التباين والدفء والدراما المنضبطة."
+      },
+      "keywords": "luxurious inferno, home, fire and glass, luxury hospitality"
+    },
+    "hotels": {
+      "title": {
+        "en": "Our Hotels | Diyar Al Diwaniyah",
+        "ar": "فنادقنا | شركة ديار الديوانية"
+      },
+      "description": {
+        "en": "Browse all managed hotels in Makkah and Madinah.",
+        "ar": "تصفح جميع الفنادق تحت إدارتنا في مكة والمدينة."
+      },
+      "keywords": "managed hotels, makkah, madinah"
+    },
+    "destinations": {
+      "title": {
+        "en": "Destinations | Diyar Al Diwaniyah",
+        "ar": "الوجهات | شركة ديار الديوانية"
+      },
+      "description": {
+        "en": "Explore hotels by destination in Makkah and Madinah.",
+        "ar": "استعرض الفنادق حسب الوجهة في مكة والمدينة."
+      },
+      "keywords": "makkah hotels, madinah hotels, destinations"
+    },
+    "services": {
+      "title": {
+        "en": "Services | Diyar Al Diwaniyah",
+        "ar": "خدماتنا | شركة ديار الديوانية"
+      },
+      "description": {
+        "en": "Integrated hotel management and operations services.",
+        "ar": "خدمات متكاملة في إدارة وتشغيل الفنادق."
+      },
+      "keywords": "hotel operations, hotel revenue, hotel management"
+    },
+    "about": {
+      "title": {
+        "en": "Built as a Cinematic Hospitality House",
+        "ar": "بُني كبيت ضيافة سينمائي"
+      },
+      "description": {
+        "en": "Our philosophy fuses emotional architecture with operational rigor.",
+        "ar": "فلسفتنا تمزج بين العمارة الشعورية والانضباط التشغيلي."
+      },
+      "keywords": "luxurious inferno, about, fire and glass, luxury hospitality"
+    },
+    "whyChooseUs": {
+      "title": {
+        "en": "Why Choose Us | Diyar Al Diwaniyah",
+        "ar": "لماذا نحن | شركة ديار الديوانية"
+      },
+      "description": {
+        "en": "See what makes Diyar Al Diwaniyah a strong hotel management partner.",
+        "ar": "اكتشف ما يجعل شركة ديار الديوانية شريكاً قوياً في إدارة الفنادق."
+      },
+      "keywords": "why choose us, hotel management expertise"
+    },
+    "contact": {
+      "title": {
+        "en": "Speak with Our Concierge Desk",
+        "ar": "تحدث مع مكتب الكونسيرج"
+      },
+      "description": {
+        "en": "Support is available around the clock in Arabic and English.",
+        "ar": "الدعم متاح على مدار الساعة بالعربية والإنجليزية."
+      },
+      "keywords": "luxurious inferno, contact, fire and glass, luxury hospitality"
+    },
+    "search": {
+      "title": {
+        "en": "Search Hotels | Diyar Al Diwaniyah",
+        "ar": "ابحث عن الفنادق | شركة ديار الديوانية"
+      },
+      "description": {
+        "en": "Search available hotels by city, dates, and guests.",
+        "ar": "ابحث عن الفنادق المتاحة حسب المدينة والتواريخ وعدد الضيوف."
+      },
+      "keywords": "hotel availability, search hotels, dates"
+    },
+    "rooms": {
+      "title": {
+        "en": "Calibrated Comfort in Ember Tones",
+        "ar": "راحة مضبوطة بدرجات الجمر"
+      },
+      "description": {
+        "en": "Room architecture emphasizes flow, privacy, and precise climate-light control.",
+        "ar": "تركز هندسة الغرف على الانسيابية والخصوصية والتحكم الدقيق بالمناخ والضوء."
+      },
+      "keywords": "luxurious inferno, rooms, fire and glass, luxury hospitality"
+    },
+    "suites": {
+      "title": {
+        "en": "Statement Suites for Extended Stays",
+        "ar": "أجنحة لافتة للإقامات الطويلة"
+      },
+      "description": {
+        "en": "Suites combine intimacy and occasion with tailored concierge workflows.",
+        "ar": "الأجنحة تجمع الخصوصية والمشهدية مع إجراءات كونسيرج مخصصة."
+      },
+      "keywords": "luxurious inferno, suites, fire and glass, luxury hospitality"
+    },
+    "gallery": {
+      "title": {
+        "en": "A Fire & Glass Gallery",
+        "ar": "معرض النار والزجاج"
+      },
+      "description": {
+        "en": "Filter and inspect every image in immersive full-screen lightbox mode.",
+        "ar": "قم بتصفية الصور ومعاينة كل لقطة بوضع عرض كامل غامر."
+      },
+      "keywords": "luxurious inferno, gallery, fire and glass, luxury hospitality"
+    },
+    "offers": {
+      "title": {
+        "en": "Curated Packages with High Value",
+        "ar": "باقات منتقاة بقيمة عالية"
+      },
+      "description": {
+        "en": "Offers are structured to keep flexibility while preserving premium standards.",
+        "ar": "العروض مصممة للحفاظ على المرونة دون التنازل عن معايير الفخامة."
+      },
+      "keywords": "luxurious inferno, offers, fire and glass, luxury hospitality"
+    },
+    "dining": {
+      "title": {
+        "en": "Flame-Driven Cuisine & Artisan Pairings",
+        "ar": "مطبخ يقوده اللهب وتوليفات حرفية"
+      },
+      "description": {
+        "en": "Dining experiences are designed as storytelling arcs with seasonal products.",
+        "ar": "تجارب الطعام مصممة كمسارات سردية بمنتجات موسمية."
+      },
+      "keywords": "luxurious inferno, dining, fire and glass, luxury hospitality"
+    },
+    "experiences": {
+      "title": {
+        "en": "Beyond Accommodation",
+        "ar": "أكثر من مجرد إقامة"
+      },
+      "description": {
+        "en": "Guests can choose ready-made arcs or build custom timelines.",
+        "ar": "يمكن للضيف اختيار مسارات جاهزة أو تصميم جداول مخصصة."
+      },
+      "keywords": "luxurious inferno, experiences, fire and glass, luxury hospitality"
+    },
+    "blog": {
+      "title": {
+        "en": "Insights, Stories, and Behind-the-Scenes",
+        "ar": "رؤى وحكايات وكواليس"
+      },
+      "description": {
+        "en": "Our journal documents trends in travel, gastronomy, and premium service.",
+        "ar": "مدونتنا توثق اتجاهات السفر وفنون الطهي والخدمة الراقية."
+      },
+      "keywords": "luxurious inferno, blog, fire and glass, luxury hospitality"
+    },
+    "booking": {
+      "title": {
+        "en": "Reserve with Confidence",
+        "ar": "احجز بثقة"
+      },
+      "description": {
+        "en": "Build your stay step by step with room, offer, and experience modules.",
+        "ar": "ابنِ إقامتك خطوة بخطوة مع وحدات الغرف والعروض والتجارب."
+      },
+      "keywords": "luxurious inferno, booking, fire and glass, luxury hospitality"
+    },
+    "faq": {
+      "title": {
+        "en": "Frequently Asked Questions",
+        "ar": "الأسئلة المتكررة"
+      },
+      "description": {
+        "en": "We keep policies transparent and easy to browse by category.",
+        "ar": "نحافظ على السياسات واضحة وسهلة الاستعراض حسب الفئة."
+      },
+      "keywords": "luxurious inferno, faq, fire and glass, luxury hospitality"
+    },
+    "admin": {
+      "title": {
+        "en": "Admin Console | Luxurious Inferno",
+        "ar": "لوحة التحكم | Luxurious Inferno"
+      },
+      "description": {
+        "en": "Manage all website content and settings.",
+        "ar": "إدارة جميع محتويات وإعدادات الموقع."
+      },
+      "keywords": "admin dashboard, cms, settings"
+    }
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "kicker": {
+          "en": "Luxurious Inferno",
+          "ar": "الجحيم الفاخر"
+        },
+        "title": {
+          "en": "Where Fire Meets Glass in Absolute Silence",
+          "ar": "حيث يلتقي اللهيب بالزجاج في صمت مطلق"
+        },
+        "subtitle": {
+          "en": "A cinematic retreat shaped by ember light, copper details, and precise hospitality.",
+          "ar": "ملاذ سينمائي تصوغه أضواء الجمر وتفاصيل النحاس وضيافة دقيقة."
+        },
+        "description": {
+          "en": "This destination is engineered as an emotional sequence. Every corridor, lounge, and room is calibrated to carry a signature rhythm of contrast, warmth, and controlled drama.",
+          "ar": "هذه الوجهة مصممة كتسلسل شعوري. كل ممر وصالة وغرفة مضبوطة لتحمل إيقاعًا مميزًا من التباين والدفء والدراما المنضبطة."
+        },
+        "image": "/uploads/seed/0K9A6736.jpg",
+        "primaryCta": {
+          "en": "Start Booking",
+          "ar": "ابدأ الحجز"
+        },
+        "primaryCtaPath": "/search",
+        "secondaryCta": {
+          "en": "Explore Suites",
+          "ar": "استكشف الأجنحة"
+        },
+        "secondaryCtaPath": "/hotels"
+      },
+      "sections": [
+        {
+          "id": "home-a",
+          "title": {
+            "en": "Design Perspective",
+            "ar": "منظور التصميم"
+          },
+          "body": {
+            "en": "The home narrative merges cinematic mood with practical hospitality standards, balancing spectacle with daily comfort and intuitive use.",
+            "ar": "سرد الرئيسية يمزج بين المزاج السينمائي ومعايير الضيافة العملية، ليوازن بين المشهدية والراحة اليومية وسهولة الاستخدام."
+          }
+        },
+        {
+          "id": "home-b",
+          "title": {
+            "en": "Operational Precision",
+            "ar": "دقة التشغيل"
+          },
+          "body": {
+            "en": "Service touchpoints are mapped with clear timing and accountable ownership, so guests feel fluid continuity from arrival to departure.",
+            "ar": "نقاط الخدمة موزعة بتوقيت واضح ومسؤوليات محددة، ليشعر الضيف بانسيابية مستمرة من الوصول حتى المغادرة."
+          }
+        },
+        {
+          "id": "home-c",
+          "title": {
+            "en": "Material & Light",
+            "ar": "المواد والضوء"
+          },
+          "body": {
+            "en": "Charcoal textures, deep red layers, and copper highlights create a controlled heat signature across every scene.",
+            "ar": "القوامات الفحمية والطبقات الحمراء العميقة والإضاءات النحاسية تصنع بصمة حرارية منضبطة في كل مشهد."
+          }
+        }
+      ],
+      "highlights": [
+        {
+          "id": "h-1",
+          "title": {
+            "en": "Private Ember Lounges",
+            "ar": "صالات جمر خاصة"
+          },
+          "text": {
+            "en": "Quiet acoustic lounges with copper bars and custom evening playlists.",
+            "ar": "صالات هادئة بعزل صوتي وبارات نحاسية وقوائم موسيقية ليلية مخصصة."
+          }
+        },
+        {
+          "id": "h-2",
+          "title": {
+            "en": "Night Concierge",
+            "ar": "كونسيرج ليلي"
+          },
+          "text": {
+            "en": "Round-the-clock concierge orchestration for transport, dining, and logistics.",
+            "ar": "تنسيق كونسيرج على مدار الساعة للنقل والطعام واللوجستيات."
+          }
+        },
+        {
+          "id": "h-3",
+          "title": {
+            "en": "Wellness Labs",
+            "ar": "مختبرات العافية"
+          },
+          "text": {
+            "en": "Recovery suites, breathing sessions, and precision wellness planning.",
+            "ar": "أجنحة تعافٍ، جلسات تنفس، وتخطيط عافية دقيق."
+          }
+        }
+      ],
+      "stats": [
+        {
+          "id": "s1",
+          "label": {
+            "en": "Luxury Units",
+            "ar": "وحدات فاخرة"
+          },
+          "value": "186"
+        },
+        {
+          "id": "s2",
+          "label": {
+            "en": "Dining Concepts",
+            "ar": "مفاهيم مطاعم"
+          },
+          "value": "7"
+        },
+        {
+          "id": "s3",
+          "label": {
+            "en": "Signature Events",
+            "ar": "فعاليات مميزة"
+          },
+          "value": "42"
+        },
+        {
+          "id": "s4",
+          "label": {
+            "en": "Guest Satisfaction",
+            "ar": "رضا الضيوف"
+          },
+          "value": "98%"
+        }
+      ]
+    },
+    "hotels": {
+      "hero": {
+        "kicker": {
+          "en": "Managed Portfolio",
+          "ar": "فنادق تحت إدارتنا"
+        },
+        "title": {
+          "en": "Explore Our Hotels",
+          "ar": "استعرض فنادقنا"
+        },
+        "subtitle": {
+          "en": "Three distinctive properties across Makkah and Madinah.",
+          "ar": "ثلاثة فنادق مميزة في مكة والمدينة."
+        },
+        "description": {
+          "en": "Browse hotel profiles, compare amenities and stars, then open each property page for rooms, gallery, and guest reviews.",
+          "ar": "تصفح ملفات الفنادق، وقارن المزايا وعدد النجوم، ثم افتح صفحة كل فندق للغرف والمعرض وتقييمات الضيوف."
+        },
+        "image": "/uploads/seed/0K9A6736.jpg"
+      }
+    },
+    "destinations": {
+      "hero": {
+        "kicker": {
+          "en": "Destinations",
+          "ar": "الوجهات"
+        },
+        "title": {
+          "en": "Makkah & Madinah",
+          "ar": "مكة المكرمة والمدينة المنورة"
+        },
+        "subtitle": {
+          "en": "Hospitality experiences shaped for the operational needs of the two holy cities.",
+          "ar": "تجارب ضيافة مصممة لخصوصية التشغيل في المدينتين المقدستين."
+        },
+        "description": {
+          "en": "Choose a destination first, then search available hotels and room types in the dates that suit your stay.",
+          "ar": "ابدأ باختيار الوجهة، ثم ابحث عن الفنادق وأنواع الغرف المتاحة في التواريخ المناسبة لك."
+        },
+        "image": "/uploads/seed/0K9A6816.jpg"
+      }
+    },
+    "services": {
+      "hero": {
+        "kicker": {
+          "en": "Services",
+          "ar": "خدماتنا"
+        },
+        "title": {
+          "en": "Hotel Operations with Measurable Control",
+          "ar": "تشغيل فندقي بضبط ونتائج قابلة للقياس"
+        },
+        "subtitle": {
+          "en": "Integrated hotel management from revenue discipline to guest-facing delivery.",
+          "ar": "إدارة وتشغيل متكاملان من الانضباط المالي إلى تجربة الضيف."
+        },
+        "description": {
+          "en": "Our services are structured to protect asset value, improve guest satisfaction, and sustain profitable growth.",
+          "ar": "خدماتنا مصممة لحماية قيمة الأصل، ورفع رضا الضيوف، ودعم النمو الربحي المستدام."
+        },
+        "image": "/uploads/seed/0K9A6748.jpg"
+      }
+    },
+    "about": {
+      "hero": {
+        "kicker": {
+          "en": "Luxurious Inferno",
+          "ar": "الجحيم الفاخر"
+        },
+        "title": {
+          "en": "Built as a Cinematic Hospitality House",
+          "ar": "بُني كبيت ضيافة سينمائي"
+        },
+        "subtitle": {
+          "en": "A multidisciplinary team shaping precision-led experiences.",
+          "ar": "فريق متعدد التخصصات يصنع تجارب قائمة على الدقة."
+        },
+        "description": {
+          "en": "Our philosophy fuses emotional architecture with operational rigor.",
+          "ar": "فلسفتنا تمزج بين العمارة الشعورية والانضباط التشغيلي."
+        },
+        "image": "https://picsum.photos/seed/inferno-about-hero/2200/1200"
+      },
+      "sections": [
+        {
+          "id": "about-a",
+          "title": {
+            "en": "Design Perspective",
+            "ar": "منظور التصميم"
+          },
+          "body": {
+            "en": "The about narrative merges cinematic mood with practical hospitality standards, balancing spectacle with daily comfort and intuitive use.",
+            "ar": "سرد عنّا يمزج بين المزاج السينمائي ومعايير الضيافة العملية، ليوازن بين المشهدية والراحة اليومية وسهولة الاستخدام."
+          }
+        },
+        {
+          "id": "about-b",
+          "title": {
+            "en": "Operational Precision",
+            "ar": "دقة التشغيل"
+          },
+          "body": {
+            "en": "Service touchpoints are mapped with clear timing and accountable ownership, so guests feel fluid continuity from arrival to departure.",
+            "ar": "نقاط الخدمة موزعة بتوقيت واضح ومسؤوليات محددة، ليشعر الضيف بانسيابية مستمرة من الوصول حتى المغادرة."
+          }
+        },
+        {
+          "id": "about-c",
+          "title": {
+            "en": "Material & Light",
+            "ar": "المواد والضوء"
+          },
+          "body": {
+            "en": "Charcoal textures, deep red layers, and copper highlights create a controlled heat signature across every scene.",
+            "ar": "القوامات الفحمية والطبقات الحمراء العميقة والإضاءات النحاسية تصنع بصمة حرارية منضبطة في كل مشهد."
+          }
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "hero": {
+        "kicker": {
+          "en": "Why Us",
+          "ar": "لماذا نحن"
+        },
+        "title": {
+          "en": "Why Choose Diyar Al Diwaniyah?",
+          "ar": "لماذا تختار شركة ديار الديوانية؟"
+        },
+        "subtitle": {
+          "en": "Built on deep market knowledge, disciplined operations, and a premium service standard.",
+          "ar": "مبنية على فهم سوقي عميق، وانضباط تشغيلي، ومعايير خدمة راقية."
+        },
+        "description": {
+          "en": "We help hotel assets perform better while keeping the guest experience clear, warm, and memorable.",
+          "ar": "نساعد الأصول الفندقية على تحقيق أداء أفضل مع الحفاظ على تجربة ضيف واضحة وراقية ولا تُنسى."
+        },
+        "image": "/uploads/seed/0K9A6780.jpg"
+      }
+    },
+    "contact": {
+      "hero": {
+        "kicker": {
+          "en": "Luxurious Inferno",
+          "ar": "الجحيم الفاخر"
+        },
+        "title": {
+          "en": "Speak with Our Concierge Desk",
+          "ar": "تحدث مع مكتب الكونسيرج"
+        },
+        "subtitle": {
+          "en": "Reservations, private events, media inquiries, and partnerships.",
+          "ar": "الحجوزات والفعاليات الخاصة والاستفسارات الإعلامية والشراكات."
+        },
+        "description": {
+          "en": "Support is available around the clock in Arabic and English.",
+          "ar": "الدعم متاح على مدار الساعة بالعربية والإنجليزية."
+        },
+        "image": "https://picsum.photos/seed/inferno-contact-hero/2200/1200"
+      },
+      "sections": [
+        {
+          "id": "contact-a",
+          "title": {
+            "en": "Design Perspective",
+            "ar": "منظور التصميم"
+          },
+          "body": {
+            "en": "The contact narrative merges cinematic mood with practical hospitality standards, balancing spectacle with daily comfort and intuitive use.",
+            "ar": "سرد تواصل يمزج بين المزاج السينمائي ومعايير الضيافة العملية، ليوازن بين المشهدية والراحة اليومية وسهولة الاستخدام."
+          }
+        },
+        {
+          "id": "contact-b",
+          "title": {
+            "en": "Operational Precision",
+            "ar": "دقة التشغيل"
+          },
+          "body": {
+            "en": "Service touchpoints are mapped with clear timing and accountable ownership, so guests feel fluid continuity from arrival to departure.",
+            "ar": "نقاط الخدمة موزعة بتوقيت واضح ومسؤوليات محددة، ليشعر الضيف بانسيابية مستمرة من الوصول حتى المغادرة."
+          }
+        },
+        {
+          "id": "contact-c",
+          "title": {
+            "en": "Material & Light",
+            "ar": "المواد والضوء"
+          },
+          "body": {
+            "en": "Charcoal textures, deep red layers, and copper highlights create a controlled heat signature across every scene.",
+            "ar": "القوامات الفحمية والطبقات الحمراء العميقة والإضاءات النحاسية تصنع بصمة حرارية منضبطة في كل مشهد."
+          }
+        }
+      ]
+    },
+    "search": {
+      "hero": {
+        "kicker": {
+          "en": "Availability Search",
+          "ar": "البحث عن التوافر"
+        },
+        "title": {
+          "en": "Find the Right Stay by City and Dates",
+          "ar": "ابحث عن الإقامة المناسبة حسب المدينة والتواريخ"
+        },
+        "subtitle": {
+          "en": "Compare all managed properties in one place, with clear available and unavailable states.",
+          "ar": "قارن كل الفنادق تحت الإدارة في صفحة واحدة، مع توضيح المتاح وغير المتاح."
+        },
+        "description": {
+          "en": "Search once, compare hotels, then move directly into the property page to review rooms, rates, stars, and guest feedback.",
+          "ar": "ابحث مرة واحدة، ثم قارن الفنادق، وانتقل مباشرة إلى صفحة الفندق لمراجعة الغرف والأسعار والنجوم وتقييمات الضيوف."
+        },
+        "image": "/uploads/seed/0K9A6736.jpg"
+      }
+    },
+    "rooms": {
+      "hero": {
+        "kicker": {
+          "en": "Luxurious Inferno",
+          "ar": "الجحيم الفاخر"
+        },
+        "title": {
+          "en": "Calibrated Comfort in Ember Tones",
+          "ar": "راحة مضبوطة بدرجات الجمر"
+        },
+        "subtitle": {
+          "en": "Discover standard, deluxe, and panoramic room lines.",
+          "ar": "اكتشف خطوط الغرف القياسية والديلوكس والبانورامية."
+        },
+        "description": {
+          "en": "Room architecture emphasizes flow, privacy, and precise climate-light control.",
+          "ar": "تركز هندسة الغرف على الانسيابية والخصوصية والتحكم الدقيق بالمناخ والضوء."
+        },
+        "image": "/uploads/1773140367987-61acf23b-5e40-4a3e-b115-4957ee1d7414.jpg"
+      },
+      "sections": [
+        {
+          "id": "rooms-a",
+          "title": {
+            "en": "Design Perspective",
+            "ar": "منظور التصميم"
+          },
+          "body": {
+            "en": "The rooms narrative merges cinematic mood with practical hospitality standards, balancing spectacle with daily comfort and intuitive use.",
+            "ar": "سرد الغرف يمزج بين المزاج السينمائي ومعايير الضيافة العملية، ليوازن بين المشهدية والراحة اليومية وسهولة الاستخدام."
+          }
+        },
+        {
+          "id": "rooms-b",
+          "title": {
+            "en": "Operational Precision",
+            "ar": "دقة التشغيل"
+          },
+          "body": {
+            "en": "Service touchpoints are mapped with clear timing and accountable ownership, so guests feel fluid continuity from arrival to departure.",
+            "ar": "نقاط الخدمة موزعة بتوقيت واضح ومسؤوليات محددة، ليشعر الضيف بانسيابية مستمرة من الوصول حتى المغادرة."
+          }
+        },
+        {
+          "id": "rooms-c",
+          "title": {
+            "en": "Material & Light",
+            "ar": "المواد والضوء"
+          },
+          "body": {
+            "en": "Charcoal textures, deep red layers, and copper highlights create a controlled heat signature across every scene.",
+            "ar": "القوامات الفحمية والطبقات الحمراء العميقة والإضاءات النحاسية تصنع بصمة حرارية منضبطة في كل مشهد."
+          }
+        }
+      ]
+    },
+    "suites": {
+      "hero": {
+        "kicker": {
+          "en": "Luxurious Inferno",
+          "ar": "الجحيم الفاخر"
+        },
+        "title": {
+          "en": "Statement Suites for Extended Stays",
+          "ar": "أجنحة لافتة للإقامات الطويلة"
+        },
+        "subtitle": {
+          "en": "Layered living zones with skyline terraces and private hosting capability.",
+          "ar": "مساحات معيشية متعددة الطبقات مع تراسات بإطلالات وقدرة استضافة خاصة."
+        },
+        "description": {
+          "en": "Suites combine intimacy and occasion with tailored concierge workflows.",
+          "ar": "الأجنحة تجمع الخصوصية والمشهدية مع إجراءات كونسيرج مخصصة."
+        },
+        "image": "https://picsum.photos/seed/inferno-suites-hero/2200/1200"
+      },
+      "sections": [
+        {
+          "id": "suites-a",
+          "title": {
+            "en": "Design Perspective",
+            "ar": "منظور التصميم"
+          },
+          "body": {
+            "en": "The suites narrative merges cinematic mood with practical hospitality standards, balancing spectacle with daily comfort and intuitive use.",
+            "ar": "سرد الأجنحة يمزج بين المزاج السينمائي ومعايير الضيافة العملية، ليوازن بين المشهدية والراحة اليومية وسهولة الاستخدام."
+          }
+        },
+        {
+          "id": "suites-b",
+          "title": {
+            "en": "Operational Precision",
+            "ar": "دقة التشغيل"
+          },
+          "body": {
+            "en": "Service touchpoints are mapped with clear timing and accountable ownership, so guests feel fluid continuity from arrival to departure.",
+            "ar": "نقاط الخدمة موزعة بتوقيت واضح ومسؤوليات محددة، ليشعر الضيف بانسيابية مستمرة من الوصول حتى المغادرة."
+          }
+        },
+        {
+          "id": "suites-c",
+          "title": {
+            "en": "Material & Light",
+            "ar": "المواد والضوء"
+          },
+          "body": {
+            "en": "Charcoal textures, deep red layers, and copper highlights create a controlled heat signature across every scene.",
+            "ar": "القوامات الفحمية والطبقات الحمراء العميقة والإضاءات النحاسية تصنع بصمة حرارية منضبطة في كل مشهد."
+          }
+        }
+      ]
+    },
+    "gallery": {
+      "hero": {
+        "kicker": {
+          "en": "Luxurious Inferno",
+          "ar": "الجحيم الفاخر"
+        },
+        "title": {
+          "en": "A Fire & Glass Gallery",
+          "ar": "معرض النار والزجاج"
+        },
+        "subtitle": {
+          "en": "A large visual archive across rooms, dining, exterior, and amenities.",
+          "ar": "أرشيف بصري كبير عبر الغرف والمطاعم والواجهات والخدمات."
+        },
+        "description": {
+          "en": "Filter and inspect every image in immersive full-screen lightbox mode.",
+          "ar": "قم بتصفية الصور ومعاينة كل لقطة بوضع عرض كامل غامر."
+        },
+        "image": "https://picsum.photos/seed/inferno-gallery-hero/2200/1200"
+      },
+      "sections": [
+        {
+          "id": "gallery-a",
+          "title": {
+            "en": "Design Perspective",
+            "ar": "منظور التصميم"
+          },
+          "body": {
+            "en": "The gallery narrative merges cinematic mood with practical hospitality standards, balancing spectacle with daily comfort and intuitive use.",
+            "ar": "سرد المعرض يمزج بين المزاج السينمائي ومعايير الضيافة العملية، ليوازن بين المشهدية والراحة اليومية وسهولة الاستخدام."
+          }
+        },
+        {
+          "id": "gallery-b",
+          "title": {
+            "en": "Operational Precision",
+            "ar": "دقة التشغيل"
+          },
+          "body": {
+            "en": "Service touchpoints are mapped with clear timing and accountable ownership, so guests feel fluid continuity from arrival to departure.",
+            "ar": "نقاط الخدمة موزعة بتوقيت واضح ومسؤوليات محددة، ليشعر الضيف بانسيابية مستمرة من الوصول حتى المغادرة."
+          }
+        },
+        {
+          "id": "gallery-c",
+          "title": {
+            "en": "Material & Light",
+            "ar": "المواد والضوء"
+          },
+          "body": {
+            "en": "Charcoal textures, deep red layers, and copper highlights create a controlled heat signature across every scene.",
+            "ar": "القوامات الفحمية والطبقات الحمراء العميقة والإضاءات النحاسية تصنع بصمة حرارية منضبطة في كل مشهد."
+          }
+        }
+      ]
+    },
+    "offers": {
+      "hero": {
+        "kicker": {
+          "en": "Luxurious Inferno",
+          "ar": "الجحيم الفاخر"
+        },
+        "title": {
+          "en": "Curated Packages with High Value",
+          "ar": "باقات منتقاة بقيمة عالية"
+        },
+        "subtitle": {
+          "en": "Seasonal rates, executive bundles, wellness and family plans.",
+          "ar": "أسعار موسمية وباقات تنفيذية وخطط عافية وعائلية."
+        },
+        "description": {
+          "en": "Offers are structured to keep flexibility while preserving premium standards.",
+          "ar": "العروض مصممة للحفاظ على المرونة دون التنازل عن معايير الفخامة."
+        },
+        "image": "https://picsum.photos/seed/inferno-offers-hero/2200/1200"
+      },
+      "sections": [
+        {
+          "id": "offers-a",
+          "title": {
+            "en": "Design Perspective",
+            "ar": "منظور التصميم"
+          },
+          "body": {
+            "en": "The offers narrative merges cinematic mood with practical hospitality standards, balancing spectacle with daily comfort and intuitive use.",
+            "ar": "سرد العروض يمزج بين المزاج السينمائي ومعايير الضيافة العملية، ليوازن بين المشهدية والراحة اليومية وسهولة الاستخدام."
+          }
+        },
+        {
+          "id": "offers-b",
+          "title": {
+            "en": "Operational Precision",
+            "ar": "دقة التشغيل"
+          },
+          "body": {
+            "en": "Service touchpoints are mapped with clear timing and accountable ownership, so guests feel fluid continuity from arrival to departure.",
+            "ar": "نقاط الخدمة موزعة بتوقيت واضح ومسؤوليات محددة، ليشعر الضيف بانسيابية مستمرة من الوصول حتى المغادرة."
+          }
+        },
+        {
+          "id": "offers-c",
+          "title": {
+            "en": "Material & Light",
+            "ar": "المواد والضوء"
+          },
+          "body": {
+            "en": "Charcoal textures, deep red layers, and copper highlights create a controlled heat signature across every scene.",
+            "ar": "القوامات الفحمية والطبقات الحمراء العميقة والإضاءات النحاسية تصنع بصمة حرارية منضبطة في كل مشهد."
+          }
+        }
+      ]
+    },
+    "dining": {
+      "hero": {
+        "kicker": {
+          "en": "Luxurious Inferno",
+          "ar": "الجحيم الفاخر"
+        },
+        "title": {
+          "en": "Flame-Driven Cuisine & Artisan Pairings",
+          "ar": "مطبخ يقوده اللهب وتوليفات حرفية"
+        },
+        "subtitle": {
+          "en": "From open-fire grills to private chef table rituals.",
+          "ar": "من مطابخ اللهب المفتوح إلى طقوس طاولة الشيف الخاصة."
+        },
+        "description": {
+          "en": "Dining experiences are designed as storytelling arcs with seasonal products.",
+          "ar": "تجارب الطعام مصممة كمسارات سردية بمنتجات موسمية."
+        },
+        "image": "https://picsum.photos/seed/inferno-dining-hero/2200/1200"
+      },
+      "sections": [
+        {
+          "id": "dining-a",
+          "title": {
+            "en": "Design Perspective",
+            "ar": "منظور التصميم"
+          },
+          "body": {
+            "en": "The dining narrative merges cinematic mood with practical hospitality standards, balancing spectacle with daily comfort and intuitive use.",
+            "ar": "سرد المطاعم يمزج بين المزاج السينمائي ومعايير الضيافة العملية، ليوازن بين المشهدية والراحة اليومية وسهولة الاستخدام."
+          }
+        },
+        {
+          "id": "dining-b",
+          "title": {
+            "en": "Operational Precision",
+            "ar": "دقة التشغيل"
+          },
+          "body": {
+            "en": "Service touchpoints are mapped with clear timing and accountable ownership, so guests feel fluid continuity from arrival to departure.",
+            "ar": "نقاط الخدمة موزعة بتوقيت واضح ومسؤوليات محددة، ليشعر الضيف بانسيابية مستمرة من الوصول حتى المغادرة."
+          }
+        },
+        {
+          "id": "dining-c",
+          "title": {
+            "en": "Material & Light",
+            "ar": "المواد والضوء"
+          },
+          "body": {
+            "en": "Charcoal textures, deep red layers, and copper highlights create a controlled heat signature across every scene.",
+            "ar": "القوامات الفحمية والطبقات الحمراء العميقة والإضاءات النحاسية تصنع بصمة حرارية منضبطة في كل مشهد."
+          }
+        }
+      ]
+    },
+    "experiences": {
+      "hero": {
+        "kicker": {
+          "en": "Luxurious Inferno",
+          "ar": "الجحيم الفاخر"
+        },
+        "title": {
+          "en": "Beyond Accommodation",
+          "ar": "أكثر من مجرد إقامة"
+        },
+        "subtitle": {
+          "en": "Curated city loops, wellness paths, and private itineraries.",
+          "ar": "جولات مدينة منتقاة ومسارات عافية وبرامج خاصة."
+        },
+        "description": {
+          "en": "Guests can choose ready-made arcs or build custom timelines.",
+          "ar": "يمكن للضيف اختيار مسارات جاهزة أو تصميم جداول مخصصة."
+        },
+        "image": "https://picsum.photos/seed/inferno-experiences-hero/2200/1200"
+      },
+      "sections": [
+        {
+          "id": "experiences-a",
+          "title": {
+            "en": "Design Perspective",
+            "ar": "منظور التصميم"
+          },
+          "body": {
+            "en": "The experiences narrative merges cinematic mood with practical hospitality standards, balancing spectacle with daily comfort and intuitive use.",
+            "ar": "سرد التجارب يمزج بين المزاج السينمائي ومعايير الضيافة العملية، ليوازن بين المشهدية والراحة اليومية وسهولة الاستخدام."
+          }
+        },
+        {
+          "id": "experiences-b",
+          "title": {
+            "en": "Operational Precision",
+            "ar": "دقة التشغيل"
+          },
+          "body": {
+            "en": "Service touchpoints are mapped with clear timing and accountable ownership, so guests feel fluid continuity from arrival to departure.",
+            "ar": "نقاط الخدمة موزعة بتوقيت واضح ومسؤوليات محددة، ليشعر الضيف بانسيابية مستمرة من الوصول حتى المغادرة."
+          }
+        },
+        {
+          "id": "experiences-c",
+          "title": {
+            "en": "Material & Light",
+            "ar": "المواد والضوء"
+          },
+          "body": {
+            "en": "Charcoal textures, deep red layers, and copper highlights create a controlled heat signature across every scene.",
+            "ar": "القوامات الفحمية والطبقات الحمراء العميقة والإضاءات النحاسية تصنع بصمة حرارية منضبطة في كل مشهد."
+          }
+        }
+      ]
+    },
+    "blog": {
+      "hero": {
+        "kicker": {
+          "en": "Luxurious Inferno",
+          "ar": "الجحيم الفاخر"
+        },
+        "title": {
+          "en": "Insights, Stories, and Behind-the-Scenes",
+          "ar": "رؤى وحكايات وكواليس"
+        },
+        "subtitle": {
+          "en": "Articles from chefs, designers, operators, and guest teams.",
+          "ar": "مقالات من الشيفات والمصممين وفرق التشغيل وتجربة الضيف."
+        },
+        "description": {
+          "en": "Our journal documents trends in travel, gastronomy, and premium service.",
+          "ar": "مدونتنا توثق اتجاهات السفر وفنون الطهي والخدمة الراقية."
+        },
+        "image": "https://picsum.photos/seed/inferno-blog-hero/2200/1200"
+      },
+      "sections": [
+        {
+          "id": "blog-a",
+          "title": {
+            "en": "Design Perspective",
+            "ar": "منظور التصميم"
+          },
+          "body": {
+            "en": "The blog narrative merges cinematic mood with practical hospitality standards, balancing spectacle with daily comfort and intuitive use.",
+            "ar": "سرد المدونة يمزج بين المزاج السينمائي ومعايير الضيافة العملية، ليوازن بين المشهدية والراحة اليومية وسهولة الاستخدام."
+          }
+        },
+        {
+          "id": "blog-b",
+          "title": {
+            "en": "Operational Precision",
+            "ar": "دقة التشغيل"
+          },
+          "body": {
+            "en": "Service touchpoints are mapped with clear timing and accountable ownership, so guests feel fluid continuity from arrival to departure.",
+            "ar": "نقاط الخدمة موزعة بتوقيت واضح ومسؤوليات محددة، ليشعر الضيف بانسيابية مستمرة من الوصول حتى المغادرة."
+          }
+        },
+        {
+          "id": "blog-c",
+          "title": {
+            "en": "Material & Light",
+            "ar": "المواد والضوء"
+          },
+          "body": {
+            "en": "Charcoal textures, deep red layers, and copper highlights create a controlled heat signature across every scene.",
+            "ar": "القوامات الفحمية والطبقات الحمراء العميقة والإضاءات النحاسية تصنع بصمة حرارية منضبطة في كل مشهد."
+          }
+        }
+      ]
+    },
+    "booking": {
+      "hero": {
+        "kicker": {
+          "en": "Luxurious Inferno",
+          "ar": "الجحيم الفاخر"
+        },
+        "title": {
+          "en": "Reserve with Confidence",
+          "ar": "احجز بثقة"
+        },
+        "subtitle": {
+          "en": "Transparent pricing, flexible conditions, and fast confirmation.",
+          "ar": "تسعير واضح وشروط مرنة وتأكيد سريع."
+        },
+        "description": {
+          "en": "Build your stay step by step with room, offer, and experience modules.",
+          "ar": "ابنِ إقامتك خطوة بخطوة مع وحدات الغرف والعروض والتجارب."
+        },
+        "image": "https://picsum.photos/seed/inferno-booking-hero/2200/1200"
+      },
+      "sections": [
+        {
+          "id": "booking-a",
+          "title": {
+            "en": "Design Perspective",
+            "ar": "منظور التصميم"
+          },
+          "body": {
+            "en": "The booking narrative merges cinematic mood with practical hospitality standards, balancing spectacle with daily comfort and intuitive use.",
+            "ar": "سرد الحجز يمزج بين المزاج السينمائي ومعايير الضيافة العملية، ليوازن بين المشهدية والراحة اليومية وسهولة الاستخدام."
+          }
+        },
+        {
+          "id": "booking-b",
+          "title": {
+            "en": "Operational Precision",
+            "ar": "دقة التشغيل"
+          },
+          "body": {
+            "en": "Service touchpoints are mapped with clear timing and accountable ownership, so guests feel fluid continuity from arrival to departure.",
+            "ar": "نقاط الخدمة موزعة بتوقيت واضح ومسؤوليات محددة، ليشعر الضيف بانسيابية مستمرة من الوصول حتى المغادرة."
+          }
+        },
+        {
+          "id": "booking-c",
+          "title": {
+            "en": "Material & Light",
+            "ar": "المواد والضوء"
+          },
+          "body": {
+            "en": "Charcoal textures, deep red layers, and copper highlights create a controlled heat signature across every scene.",
+            "ar": "القوامات الفحمية والطبقات الحمراء العميقة والإضاءات النحاسية تصنع بصمة حرارية منضبطة في كل مشهد."
+          }
+        }
+      ]
+    },
+    "faq": {
+      "hero": {
+        "kicker": {
+          "en": "Luxurious Inferno",
+          "ar": "الجحيم الفاخر"
+        },
+        "title": {
+          "en": "Frequently Asked Questions",
+          "ar": "الأسئلة المتكررة"
+        },
+        "subtitle": {
+          "en": "Quick answers for booking, dining, transport, and policies.",
+          "ar": "إجابات سريعة للحجز والمطاعم والنقل والسياسات."
+        },
+        "description": {
+          "en": "We keep policies transparent and easy to browse by category.",
+          "ar": "نحافظ على السياسات واضحة وسهلة الاستعراض حسب الفئة."
+        },
+        "image": "https://picsum.photos/seed/inferno-faq-hero/2200/1200"
+      },
+      "sections": [
+        {
+          "id": "faq-a",
+          "title": {
+            "en": "Design Perspective",
+            "ar": "منظور التصميم"
+          },
+          "body": {
+            "en": "The faq narrative merges cinematic mood with practical hospitality standards, balancing spectacle with daily comfort and intuitive use.",
+            "ar": "سرد الأسئلة يمزج بين المزاج السينمائي ومعايير الضيافة العملية، ليوازن بين المشهدية والراحة اليومية وسهولة الاستخدام."
+          }
+        },
+        {
+          "id": "faq-b",
+          "title": {
+            "en": "Operational Precision",
+            "ar": "دقة التشغيل"
+          },
+          "body": {
+            "en": "Service touchpoints are mapped with clear timing and accountable ownership, so guests feel fluid continuity from arrival to departure.",
+            "ar": "نقاط الخدمة موزعة بتوقيت واضح ومسؤوليات محددة، ليشعر الضيف بانسيابية مستمرة من الوصول حتى المغادرة."
+          }
+        },
+        {
+          "id": "faq-c",
+          "title": {
+            "en": "Material & Light",
+            "ar": "المواد والضوء"
+          },
+          "body": {
+            "en": "Charcoal textures, deep red layers, and copper highlights create a controlled heat signature across every scene.",
+            "ar": "القوامات الفحمية والطبقات الحمراء العميقة والإضاءات النحاسية تصنع بصمة حرارية منضبطة في كل مشهد."
+          }
+        }
+      ]
+    }
+  },
+  "company": {
+    "slogan": {
+      "en": "We Elevate Hospitality in the Heart of the Two Holy Mosques",
+      "ar": "نحن نرتقي بالضيافة في قلب الحرمين الشريفين"
+    },
+    "welcomeMessage": {
+      "en": "We are at your service",
+      "ar": "نحن في خدمتكم"
+    },
+    "intro": {
+      "en": "Diyar Al Diwaniyah is a Saudi company specialized in hotel management and operations, with a strategic focus on Makkah and Madinah.",
+      "ar": "شركة ديار الديوانية هي شركة سعودية متخصصة في إدارة وتشغيل الفنادق مع تركيز استراتيجي على مكة المكرمة والمدينة المنورة."
+    },
+    "aboutBody": {
+      "en": "We commit to exceptional hospitality experiences backed by a high-caliber team and a practical obsession with quality, profitability, and operational control.",
+      "ar": "نلتزم بتقديم تجارب ضيافة استثنائية، مدعومة بفريق عالي الكفاءة وشغف واضح بالجودة والربحية والانضباط التشغيلي."
+    },
+    "vision": {
+      "en": "To become the preferred hotel management partner in Makkah and Madinah, known for quality, innovation, and profitability for hotel owners.",
+      "ar": "أن نكون الشريك المفضل لإدارة وتشغيل الفنادق في مكة المكرمة والمدينة المنورة، معروفين بتقديم أعلى مستويات الجودة والابتكار والربحية لأصحاب الفنادق."
+    },
+    "mission": {
+      "en": "To deliver integrated hotel management services that maximize efficiency and returns while creating memorable guest experiences shaped by the spirit of the two holy cities.",
+      "ar": "تقديم خدمات إدارة وتشغيل فنادق متكاملة ومبتكرة، تضمن تحقيق أقصى قدر من الكفاءة التشغيلية والربحية، مع خلق تجربة ضيافة متميزة تعكس روحانية المدينتين المقدستين."
+    },
+    "values": [
+      {
+        "id": "value-excellence",
+        "title": {
+          "en": "Excellence",
+          "ar": "التميز"
+        },
+        "body": {
+          "en": "We pursue the highest quality standards across operations, guest service, and brand presentation.",
+          "ar": "نسعى دائماً إلى تحقيق أعلى معايير الجودة في التشغيل، وخدمة الضيوف، وتقديم العلامة التجارية."
+        }
+      },
+      {
+        "id": "value-integrity",
+        "title": {
+          "en": "Integrity",
+          "ar": "النزاهة"
+        },
+        "body": {
+          "en": "We work with transparency, accountability, and measurable trust in every partnership.",
+          "ar": "نعمل بشفافية ومصداقية ومسؤولية واضحة في كل شراكة."
+        }
+      },
+      {
+        "id": "value-innovation",
+        "title": {
+          "en": "Innovation",
+          "ar": "الابتكار"
+        },
+        "body": {
+          "en": "We adopt modern hospitality systems, pricing discipline, and operational tools that move results forward.",
+          "ar": "نتبنى أحدث الأنظمة والحلول التشغيلية والتسويقية التي تدفع النتائج إلى الأمام."
+        }
+      },
+      {
+        "id": "value-guest",
+        "title": {
+          "en": "Guest First",
+          "ar": "التركيز على الضيف"
+        },
+        "body": {
+          "en": "Guest comfort, clarity, and trust remain at the center of every decision we make.",
+          "ar": "نضع راحة الضيف ووضوح التجربة وثقته في صميم كل قرار نتخذه."
+        }
+      },
+      {
+        "id": "value-community",
+        "title": {
+          "en": "Social Responsibility",
+          "ar": "المسؤولية الاجتماعية"
+        },
+        "body": {
+          "en": "We support local communities and create operations that respect the context of the two holy cities.",
+          "ar": "ندعم المجتمعات المحلية ونبني عمليات تراعي خصوصية المدينتين المقدستين."
+        }
+      },
+      {
+        "id": "value-profit",
+        "title": {
+          "en": "Sustainable Profitability",
+          "ar": "الربحية المستدامة"
+        },
+        "body": {
+          "en": "We optimize long-term returns by balancing occupancy, efficiency, and service quality.",
+          "ar": "نعمل على تعظيم العائد المستدام عبر الموازنة بين الإشغال والكفاءة وجودة الخدمة."
+        }
+      }
+    ],
+    "services": [
+      {
+        "id": "service-ops",
+        "title": {
+          "en": "Full Hotel Operations",
+          "ar": "الإدارة التشغيلية الكاملة"
+        },
+        "body": {
+          "en": "Daily supervision of rooms, front office, housekeeping, engineering, and guest-touchpoint delivery.",
+          "ar": "الإشراف اليومي على الغرف، والاستقبال، والتدبير الفندقي، والهندسة، وتجربة الضيف."
+        }
+      },
+      {
+        "id": "service-revenue",
+        "title": {
+          "en": "Revenue, Sales & Marketing",
+          "ar": "إدارة الإيرادات والتسويق والمبيعات"
+        },
+        "body": {
+          "en": "Pricing strategy, digital marketing, distribution channels, and sales planning to grow occupancy and revenue.",
+          "ar": "تطوير استراتيجيات التسعير والتسويق الرقمي وقنوات التوزيع وخطط المبيعات لزيادة الإشغال والإيرادات."
+        }
+      },
+      {
+        "id": "service-finance",
+        "title": {
+          "en": "Finance & Accounting",
+          "ar": "إدارة الشؤون المالية والمحاسبة"
+        },
+        "body": {
+          "en": "Budgets, recurring financial reports, cash flow control, and decision-grade analysis.",
+          "ar": "إعداد الميزانيات، والتقارير المالية الدورية، وإدارة التدفقات النقدية، والتحليل المالي."
+        }
+      },
+      {
+        "id": "service-hr",
+        "title": {
+          "en": "HR & Training",
+          "ar": "إدارة الموارد البشرية والتدريب"
+        },
+        "body": {
+          "en": "Recruitment, training, and performance development for hospitality teams built around service culture.",
+          "ar": "استقطاب وتوظيف وتدريب أفضل الكفاءات في مجال الضيافة وبناء ثقافة خدمة واضحة."
+        }
+      },
+      {
+        "id": "service-facilities",
+        "title": {
+          "en": "Facilities & Maintenance",
+          "ar": "الصيانة وإدارة المرافق"
+        },
+        "body": {
+          "en": "Asset care plans that preserve hotel quality, safety, and the long-term condition of the property.",
+          "ar": "الحفاظ على جودة وأداء الأصول الفندقية عبر خطط صيانة ومتابعة احترافية."
+        }
+      },
+      {
+        "id": "service-quality",
+        "title": {
+          "en": "Quality & Compliance",
+          "ar": "الجودة والامتثال"
+        },
+        "body": {
+          "en": "Alignment with local and international standards for health, safety, environment, and service delivery.",
+          "ar": "ضمان الالتزام بالمعايير الدولية والمحلية للصحة والسلامة والبيئة وجودة الخدمة."
+        }
+      },
+      {
+        "id": "service-development",
+        "title": {
+          "en": "Planning & Development",
+          "ar": "التخطيط والتطوير"
+        },
+        "body": {
+          "en": "Advisory support for new hotel projects, repositioning plans, and improvement programs for existing assets.",
+          "ar": "تقديم الاستشارات لتطوير المشاريع الفندقية الجديدة أو إعادة تأهيل الفنادق القائمة."
+        }
+      }
+    ],
+    "whyChooseUs": [
+      {
+        "id": "reason-market",
+        "title": {
+          "en": "Specialized Holy Cities Expertise",
+          "ar": "خبرة متخصصة في سوق الحرمين"
+        },
+        "body": {
+          "en": "We understand the operational rhythm, guest expectations, and seasonality of Makkah and Madinah.",
+          "ar": "نمتلك فهماً عميقاً لخصوصية سوق الضيافة في مكة والمدينة، بما يشمل مواسم الذروة وتوقعات الضيوف."
+        }
+      },
+      {
+        "id": "reason-leadership",
+        "title": {
+          "en": "Experienced Leadership",
+          "ar": "فريق قيادي محترف"
+        },
+        "body": {
+          "en": "Our team covers hotel management, revenue, marketing, finance, HR, and operations with real field experience.",
+          "ar": "يضم فريقنا خبرات متقدمة في إدارة الفنادق، والإيرادات، والتسويق، والمالية، والموارد البشرية، والعمليات."
+        }
+      },
+      {
+        "id": "reason-return",
+        "title": {
+          "en": "Return-Focused Management",
+          "ar": "تحقيق أعلى عائد على الاستثمار"
+        },
+        "body": {
+          "en": "We work on occupancy growth, cost optimization, and quality control to protect owner returns.",
+          "ar": "نستخدم استراتيجيات مبتكرة لزيادة الإيرادات وخفض التكاليف وتحسين الكفاءة التشغيلية بما يحقق ربحية أعلى."
+        }
+      },
+      {
+        "id": "reason-standards",
+        "title": {
+          "en": "Global Service Standards",
+          "ar": "معايير خدمة عالمية"
+        },
+        "body": {
+          "en": "We apply clear SOPs and guest-service standards that create a memorable and consistent stay.",
+          "ar": "نطبق أفضل الممارسات العالمية في خدمة العملاء لضمان تجربة ضيافة احترافية وثابتة."
+        }
+      },
+      {
+        "id": "reason-tech",
+        "title": {
+          "en": "Advanced Hospitality Technology",
+          "ar": "تكنولوجيا متطورة"
+        },
+        "body": {
+          "en": "We invest in PMS, revenue systems, digital tools, and reporting workflows that improve performance visibility.",
+          "ar": "نستثمر في أنظمة إدارة الفنادق والإيرادات وأدوات التسويق والتقارير الرقمية لتعزيز الأداء."
+        }
+      },
+      {
+        "id": "reason-culture",
+        "title": {
+          "en": "Cultural & Spiritual Alignment",
+          "ar": "الالتزام بالهوية الثقافية"
+        },
+        "body": {
+          "en": "Our service design respects the cultural and spiritual context of the two holy cities.",
+          "ar": "نحرص على أن تعكس خدماتنا هوية مكة والمدينة الروحية والثقافية في التصميم والتشغيل."
+        }
+      }
+    ],
+    "destinations": [
+      {
+        "id": "dest-makkah",
+        "slug": "makkah",
+        "name": {
+          "en": "Makkah Al Mukarramah",
+          "ar": "مكة المكرمة"
+        },
+        "image": "/uploads/seed/0K9A6816.jpg",
+        "summary": {
+          "en": "Managed properties near the holy sites, designed for high-demand seasonal operations and clear guest flow.",
+          "ar": "فنادق مُدارة بالقرب من المشاعر والمناطق الحيوية، بتشغيل جاهز للمواسم العالية وتجربة ضيف منظمة."
+        }
+      },
+      {
+        "id": "dest-madinah",
+        "slug": "madinah",
+        "name": {
+          "en": "Al Madinah Al Munawwarah",
+          "ar": "المدينة المنورة"
+        },
+        "image": "/uploads/seed/0K9A6699.jpg",
+        "summary": {
+          "en": "Hospitality experiences tailored for visitors of Al Masjid An Nabawi, with calm service and strong operational control.",
+          "ar": "تجارب ضيافة مصممة لزوار المسجد النبوي بخدمة هادئة وتشغيل منضبط وكفاءة عالية."
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "stat-hotels",
+        "label": {
+          "en": "Managed Hotels",
+          "ar": "فنادق تحت الإدارة"
+        },
+        "value": "3"
+      },
+      {
+        "id": "stat-rooms",
+        "label": {
+          "en": "Total Rooms",
+          "ar": "إجمالي الغرف"
+        },
+        "value": "1295"
+      },
+      {
+        "id": "stat-cities",
+        "label": {
+          "en": "Key Cities",
+          "ar": "مدن التشغيل"
+        },
+        "value": "2"
+      },
+      {
+        "id": "stat-support",
+        "label": {
+          "en": "Guest Support",
+          "ar": "دعم الضيوف"
+        },
+        "value": "24/7"
+      }
+    ]
+  },
+  "hotels": [
+    {
+      "id": "hotel-shakereen",
+      "slug": "golden-tulip-shakereen",
+      "name": {
+        "en": "Golden Tulip Shakereen Hotel",
+        "ar": "فندق الشاكرين جولدن توليب"
+      },
+      "city": "madinah",
+      "cityLabel": {
+        "en": "Al Madinah Al Munawwarah",
+        "ar": "المدينة المنورة"
+      },
+      "starRating": 5,
+      "roomCount": 420,
+      "badge": {
+        "en": "Flagship Property",
+        "ar": "الفندق الرئيسي"
+      },
+      "heroImage": "/uploads/seed/0K9A6736.jpg",
+      "primaryImage": "/uploads/seed/0K9A6736.jpg",
+      "shortDescription": {
+        "en": "A polished flagship stay in Madinah with premium rooms, efficient guest flow, and a warm brand presence.",
+        "ar": "إقامة رئيسية راقية في المدينة المنورة بغرف متميزة وتشغيل منظم وتجربة ضيف أنيقة."
+      },
+      "description": {
+        "en": "Golden Tulip Shakereen Hotel balances polished public spaces, efficient room operations, and booking clarity for business, family, and religious travel.",
+        "ar": "يُعد فندق الشاكرين جولدن توليب من الواجهات الفندقية الرئيسية في المدينة المنورة، حيث يجمع بين المساحات الأنيقة والتشغيل المنظم ووضوح تجربة الحجز لرحلات الأعمال والعائلات والزوار."
+      },
+      "address": {
+        "en": "Central Area, Al Madinah Al Munawwarah",
+        "ar": "المنطقة المركزية، المدينة المنورة"
+      },
+      "gallery": [
+        {
+          "id": "shakereen-exterior",
+          "category": "exterior",
+          "src": "/uploads/seed/0K9A6736.jpg",
+          "thumb": "/uploads/seed/0K9A6736.jpg",
+          "title": {
+            "en": "Shakereen Exterior",
+            "ar": "واجهة فندق الشاكرين"
+          },
+          "description": {
+            "en": "A prominent street-facing entrance with strong evening lighting.",
+            "ar": "واجهة فندقية بارزة بإضاءة مسائية قوية."
+          },
+          "alt": {
+            "en": "Shakereen Exterior",
+            "ar": "واجهة فندق الشاكرين"
+          }
+        },
+        {
+          "id": "shakereen-lobby",
+          "category": "lobby",
+          "src": "/uploads/seed/0K9A6673.jpg",
+          "thumb": "/uploads/seed/0K9A6673.jpg",
+          "title": {
+            "en": "Lobby Welcome",
+            "ar": "استقبال الفندق"
+          },
+          "description": {
+            "en": "Reception moments shaped around warmth and arrival clarity.",
+            "ar": "لحظات استقبال مصممة حول الدفء ووضوح تجربة الوصول."
+          },
+          "alt": {
+            "en": "Lobby Welcome",
+            "ar": "استقبال الفندق"
+          }
+        },
+        {
+          "id": "shakereen-room",
+          "category": "rooms",
+          "src": "/uploads/seed/0K9A6780.jpg",
+          "thumb": "/uploads/seed/0K9A6780.jpg",
+          "title": {
+            "en": "Guest Room",
+            "ar": "غرفة ضيوف"
+          },
+          "description": {
+            "en": "Comfortable room composition with premium finishes and quiet lighting.",
+            "ar": "غرفة مريحة بتشطيبات راقية وإضاءة هادئة."
+          },
+          "alt": {
+            "en": "Guest Room",
+            "ar": "غرفة ضيوف"
+          }
+        },
+        {
+          "id": "shakereen-suite",
+          "category": "suites",
+          "src": "/uploads/seed/0K9A6748.jpg",
+          "thumb": "/uploads/seed/0K9A6748.jpg",
+          "title": {
+            "en": "Executive Suite",
+            "ar": "جناح تنفيذي"
+          },
+          "description": {
+            "en": "A refined suite layout for longer stays and higher privacy.",
+            "ar": "جناح راقٍ مناسب للإقامات الأطول مع خصوصية أعلى."
+          },
+          "alt": {
+            "en": "Executive Suite",
+            "ar": "جناح تنفيذي"
+          }
+        },
+        {
+          "id": "shakereen-amenities",
+          "category": "amenities",
+          "src": "/uploads/seed/0K9A6816.jpg",
+          "thumb": "/uploads/seed/0K9A6816.jpg",
+          "title": {
+            "en": "Service Spaces",
+            "ar": "مرافق وخدمات"
+          },
+          "description": {
+            "en": "Service facilities designed to support smooth guest journeys.",
+            "ar": "مرافق خدمية تدعم رحلة الضيف بسلاسة."
+          },
+          "alt": {
+            "en": "Service Spaces",
+            "ar": "مرافق وخدمات"
+          }
+        }
+      ],
+      "amenityHighlights": [
+        {
+          "en": "Premium lobby experience",
+          "ar": "ردهة استقبال فاخرة"
+        },
+        {
+          "en": "Family-friendly room mix",
+          "ar": "تنوع غرف مناسب للعائلات"
+        },
+        {
+          "en": "High-capacity seasonal operations",
+          "ar": "جاهزية تشغيلية عالية للمواسم"
+        },
+        {
+          "en": "24/7 guest support",
+          "ar": "دعم ضيوف على مدار الساعة"
+        }
+      ],
+      "roomTypes": [
+        {
+          "id": "shakereen-deluxe",
+          "name": {
+            "en": "Deluxe Room",
+            "ar": "غرفة ديلوكس"
+          },
+          "category": "room",
+          "occupancy": 2,
+          "size": {
+            "en": "32 sqm",
+            "ar": "32 م²"
+          },
+          "beds": {
+            "en": "1 King Bed",
+            "ar": "سرير كينج"
+          },
+          "baseRate": 950,
+          "currency": "SAR",
+          "description": {
+            "en": "A well-composed room for couples and business travelers with warm finishes and efficient layout.",
+            "ar": "غرفة متوازنة تناسب الأزواج ورجال الأعمال بتشطيبات دافئة وتخطيط عملي."
+          },
+          "amenities": [
+            {
+              "en": "Smart TV",
+              "ar": "تلفاز ذكي"
+            },
+            {
+              "en": "High-speed Wi-Fi",
+              "ar": "إنترنت عالي السرعة"
+            },
+            {
+              "en": "Tea & coffee setup",
+              "ar": "ركن شاي وقهوة"
+            }
+          ],
+          "images": [
+            "/uploads/seed/0K9A6780.jpg",
+            "/uploads/seed/0K9A6673.jpg"
+          ],
+          "availability": [
+            {
+              "id": "shak-deluxe-1",
+              "startDate": "2026-04-01",
+              "endDate": "2026-04-20",
+              "availableUnits": 18,
+              "nightlyRate": 950,
+              "closed": false
+            },
+            {
+              "id": "shak-deluxe-2",
+              "startDate": "2026-04-21",
+              "endDate": "2026-05-15",
+              "availableUnits": 10,
+              "nightlyRate": 1040,
+              "closed": false
+            }
+          ]
+        },
+        {
+          "id": "shakereen-family",
+          "name": {
+            "en": "Family Room",
+            "ar": "غرفة عائلية"
+          },
+          "category": "room",
+          "occupancy": 4,
+          "size": {
+            "en": "44 sqm",
+            "ar": "44 م²"
+          },
+          "beds": {
+            "en": "2 Queen Beds",
+            "ar": "سريران كوين"
+          },
+          "baseRate": 1320,
+          "currency": "SAR",
+          "description": {
+            "en": "An efficient family setup with more floor area, better storage, and easy circulation.",
+            "ar": "غرفة عائلية بمساحة أوسع وتخزين أفضل وحركة مريحة داخل الغرفة."
+          },
+          "amenities": [
+            {
+              "en": "Family seating corner",
+              "ar": "ركن جلوس عائلي"
+            },
+            {
+              "en": "Extra luggage area",
+              "ar": "مساحة إضافية للأمتعة"
+            },
+            {
+              "en": "City-facing windows",
+              "ar": "نوافذ بإطلالة على المدينة"
+            }
+          ],
+          "images": [
+            "/uploads/seed/0K9A6736.jpg",
+            "/uploads/seed/0K9A6699.jpg"
+          ],
+          "availability": [
+            {
+              "id": "shak-family-1",
+              "startDate": "2026-04-01",
+              "endDate": "2026-04-15",
+              "availableUnits": 6,
+              "nightlyRate": 1320,
+              "closed": false
+            },
+            {
+              "id": "shak-family-2",
+              "startDate": "2026-04-16",
+              "endDate": "2026-05-10",
+              "availableUnits": 4,
+              "nightlyRate": 1390,
+              "closed": false
+            }
+          ]
+        },
+        {
+          "id": "shakereen-executive-suite",
+          "name": {
+            "en": "Executive Suite",
+            "ar": "جناح تنفيذي"
+          },
+          "category": "suite",
+          "occupancy": 3,
+          "size": {
+            "en": "62 sqm",
+            "ar": "62 م²"
+          },
+          "beds": {
+            "en": "1 King Bed + Lounge",
+            "ar": "سرير كينج + صالة"
+          },
+          "baseRate": 1880,
+          "currency": "SAR",
+          "description": {
+            "en": "A signature suite layout with lounge space, stronger privacy, and elevated guest amenities.",
+            "ar": "جناح مميز بصالة مستقلة وخصوصية أعلى وخدمات ضيافة أرقى."
+          },
+          "amenities": [
+            {
+              "en": "Private lounge",
+              "ar": "صالة خاصة"
+            },
+            {
+              "en": "Priority check-in support",
+              "ar": "دعم أولوية في تسجيل الوصول"
+            },
+            {
+              "en": "Premium bathroom amenities",
+              "ar": "مستلزمات حمام فاخرة"
+            }
+          ],
+          "images": [
+            "/uploads/seed/0K9A6748.jpg",
+            "/uploads/seed/0K9A6816.jpg"
+          ],
+          "availability": [
+            {
+              "id": "shak-suite-1",
+              "startDate": "2026-04-01",
+              "endDate": "2026-04-30",
+              "availableUnits": 3,
+              "nightlyRate": 1880,
+              "closed": false
+            },
+            {
+              "id": "shak-suite-2",
+              "startDate": "2026-05-01",
+              "endDate": "2026-05-20",
+              "availableUnits": 2,
+              "nightlyRate": 2010,
+              "closed": false
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "review-shak-1",
+          "hotelId": "hotel-shakereen",
+          "name": {
+            "en": "Amina Khaled",
+            "ar": "أمينة خالد"
+          },
+          "role": {
+            "en": "Guest Review",
+            "ar": "تقييم ضيف"
+          },
+          "quote": {
+            "en": "The hotel felt polished from arrival to checkout, and the booking details were clear.",
+            "ar": "كانت التجربة منظمة منذ الوصول وحتى المغادرة، وتفاصيل الحجز كانت واضحة جداً."
+          },
+          "rating": 5,
+          "submittedAt": "2026-03-10T10:00:00.000Z"
+        },
+        {
+          "id": "review-shak-2",
+          "hotelId": "hotel-shakereen",
+          "name": {
+            "en": "Omar Hegazy",
+            "ar": "عمر حجازي"
+          },
+          "role": {
+            "en": "Guest Review",
+            "ar": "تقييم ضيف"
+          },
+          "quote": {
+            "en": "A comfortable Madinah stay with fast service and a reliable front-office team.",
+            "ar": "إقامة مريحة في المدينة مع خدمة سريعة وفريق استقبال يعتمد عليه."
+          },
+          "rating": 4,
+          "submittedAt": "2026-03-10T10:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "hotel-taqwa",
+      "slug": "diar-al-taqwa",
+      "name": {
+        "en": "Diyar Al Taqwa Hotel",
+        "ar": "فندق ديار التقوى"
+      },
+      "city": "madinah",
+      "cityLabel": {
+        "en": "Al Madinah Al Munawwarah",
+        "ar": "المدينة المنورة"
+      },
+      "starRating": 4,
+      "roomCount": 144,
+      "badge": {
+        "en": "Boutique Managed Stay",
+        "ar": "فندق بوتيك مُدار"
+      },
+      "heroImage": "/uploads/seed/0K9A6816.jpg",
+      "primaryImage": "/uploads/seed/0K9A6816.jpg",
+      "shortDescription": {
+        "en": "A compact managed property in Madinah focused on calm hospitality and efficient guest support.",
+        "ar": "فندق مُدار في المدينة يركز على الضيافة الهادئة والخدمة المنضبطة وسهولة الحركة."
+      },
+      "description": {
+        "en": "Diyar Al Taqwa Hotel is designed as a quieter hospitality choice in Madinah, where the guest experience prioritizes clarity, cleanliness, and smooth operational control.",
+        "ar": "فندق ديار التقوى خيار ضيافة أكثر هدوءًا في المدينة المنورة، يركز على الوضوح والنظافة والانضباط التشغيلي ضمن مخزون غرف أكثر خصوصية."
+      },
+      "address": {
+        "en": "Northern Central Zone, Al Madinah Al Munawwarah",
+        "ar": "المنطقة المركزية الشمالية، المدينة المنورة"
+      },
+      "gallery": [
+        {
+          "id": "taqwa-exterior",
+          "category": "exterior",
+          "src": "/uploads/seed/0K9A6816.jpg",
+          "thumb": "/uploads/seed/0K9A6816.jpg",
+          "title": {
+            "en": "Diyar Al Taqwa Exterior",
+            "ar": "واجهة ديار التقوى"
+          },
+          "description": {
+            "en": "Elegant exterior composition with refined entrance lighting.",
+            "ar": "واجهة أنيقة بإضاءة مدخل راقية."
+          },
+          "alt": {
+            "en": "Diyar Al Taqwa Exterior",
+            "ar": "واجهة ديار التقوى"
+          }
+        },
+        {
+          "id": "taqwa-lobby",
+          "category": "lobby",
+          "src": "/uploads/seed/0K9A6673.jpg",
+          "thumb": "/uploads/seed/0K9A6673.jpg",
+          "title": {
+            "en": "Arrival Hall",
+            "ar": "صالة الوصول"
+          },
+          "description": {
+            "en": "A calm reception setting tailored for quick guest support.",
+            "ar": "مساحة استقبال هادئة ومصممة لخدمة ضيوف سريعة."
+          },
+          "alt": {
+            "en": "Arrival Hall",
+            "ar": "صالة الوصول"
+          }
+        },
+        {
+          "id": "taqwa-room",
+          "category": "rooms",
+          "src": "/uploads/seed/0K9A6748.jpg",
+          "thumb": "/uploads/seed/0K9A6748.jpg",
+          "title": {
+            "en": "Standard Room",
+            "ar": "غرفة قياسية"
+          },
+          "description": {
+            "en": "A compact, balanced room for short and medium stays.",
+            "ar": "غرفة متوازنة تناسب الإقامات القصيرة والمتوسطة."
+          },
+          "alt": {
+            "en": "Standard Room",
+            "ar": "غرفة قياسية"
+          }
+        },
+        {
+          "id": "taqwa-suite",
+          "category": "suites",
+          "src": "/uploads/seed/0K9A6780.jpg",
+          "thumb": "/uploads/seed/0K9A6780.jpg",
+          "title": {
+            "en": "Junior Suite",
+            "ar": "جناح جونيور"
+          },
+          "description": {
+            "en": "A private suite setup for guests who need more space.",
+            "ar": "جناح عملي لمن يحتاج مساحة إضافية وخصوصية أكبر."
+          },
+          "alt": {
+            "en": "Junior Suite",
+            "ar": "جناح جونيور"
+          }
+        },
+        {
+          "id": "taqwa-amenities",
+          "category": "amenities",
+          "src": "/uploads/seed/0K9A6699.jpg",
+          "thumb": "/uploads/seed/0K9A6699.jpg",
+          "title": {
+            "en": "Quiet Service Areas",
+            "ar": "مناطق الخدمة"
+          },
+          "description": {
+            "en": "Operational spaces built around a smooth guest flow.",
+            "ar": "مناطق خدمة تدعم انسيابية تجربة الضيف."
+          },
+          "alt": {
+            "en": "Quiet Service Areas",
+            "ar": "مناطق الخدمة"
+          }
+        }
+      ],
+      "amenityHighlights": [
+        {
+          "en": "Quiet hospitality style",
+          "ar": "أسلوب ضيافة هادئ"
+        },
+        {
+          "en": "Compact and efficient operations",
+          "ar": "تشغيل منظم وفعّال"
+        },
+        {
+          "en": "Suitable for short stays",
+          "ar": "مناسب للإقامات القصيرة"
+        },
+        {
+          "en": "Central Madinah access",
+          "ar": "وصول ممتاز داخل المدينة"
+        }
+      ],
+      "roomTypes": [
+        {
+          "id": "taqwa-standard",
+          "name": {
+            "en": "Standard Room",
+            "ar": "غرفة قياسية"
+          },
+          "category": "room",
+          "occupancy": 2,
+          "size": {
+            "en": "28 sqm",
+            "ar": "28 م²"
+          },
+          "beds": {
+            "en": "1 Queen Bed",
+            "ar": "سرير كوين"
+          },
+          "baseRate": 720,
+          "currency": "SAR",
+          "description": {
+            "en": "A practical room for guests looking for clarity, comfort, and fast access to services.",
+            "ar": "غرفة عملية لمن يبحث عن الوضوح والراحة وسهولة الوصول إلى الخدمات."
+          },
+          "amenities": [
+            {
+              "en": "Work desk",
+              "ar": "مكتب عمل"
+            },
+            {
+              "en": "Mini fridge",
+              "ar": "ثلاجة صغيرة"
+            },
+            {
+              "en": "Fast Wi-Fi",
+              "ar": "إنترنت سريع"
+            }
+          ],
+          "images": [
+            "/uploads/seed/0K9A6748.jpg",
+            "/uploads/seed/0K9A6673.jpg"
+          ],
+          "availability": [
+            {
+              "id": "taqwa-standard-1",
+              "startDate": "2026-04-01",
+              "endDate": "2026-04-09",
+              "availableUnits": 10,
+              "nightlyRate": 720,
+              "closed": false
+            },
+            {
+              "id": "taqwa-standard-2",
+              "startDate": "2026-04-10",
+              "endDate": "2026-04-20",
+              "availableUnits": 0,
+              "nightlyRate": 760,
+              "closed": true
+            },
+            {
+              "id": "taqwa-standard-3",
+              "startDate": "2026-04-21",
+              "endDate": "2026-05-20",
+              "availableUnits": 8,
+              "nightlyRate": 780,
+              "closed": false
+            }
+          ]
+        },
+        {
+          "id": "taqwa-junior-suite",
+          "name": {
+            "en": "Junior Suite",
+            "ar": "جناح جونيور"
+          },
+          "category": "suite",
+          "occupancy": 3,
+          "size": {
+            "en": "48 sqm",
+            "ar": "48 م²"
+          },
+          "beds": {
+            "en": "1 King Bed",
+            "ar": "سرير كينج"
+          },
+          "baseRate": 1180,
+          "currency": "SAR",
+          "description": {
+            "en": "A comfortable suite for guests who want a quieter stay with extra room and better circulation.",
+            "ar": "جناح مريح للضيوف الذين يفضلون إقامة هادئة مع مساحة أكبر."
+          },
+          "amenities": [
+            {
+              "en": "Separate sitting area",
+              "ar": "جلسة مستقلة"
+            },
+            {
+              "en": "Premium linen",
+              "ar": "بياضات فاخرة"
+            },
+            {
+              "en": "Additional wardrobe space",
+              "ar": "خزائن إضافية"
+            }
+          ],
+          "images": [
+            "/uploads/seed/0K9A6780.jpg",
+            "/uploads/seed/0K9A6816.jpg"
+          ],
+          "availability": [
+            {
+              "id": "taqwa-suite-1",
+              "startDate": "2026-04-01",
+              "endDate": "2026-04-12",
+              "availableUnits": 2,
+              "nightlyRate": 1180,
+              "closed": false
+            },
+            {
+              "id": "taqwa-suite-2",
+              "startDate": "2026-04-13",
+              "endDate": "2026-04-22",
+              "availableUnits": 0,
+              "nightlyRate": 1230,
+              "closed": true
+            },
+            {
+              "id": "taqwa-suite-3",
+              "startDate": "2026-04-23",
+              "endDate": "2026-05-20",
+              "availableUnits": 3,
+              "nightlyRate": 1260,
+              "closed": false
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "review-taqwa-1",
+          "hotelId": "hotel-taqwa",
+          "name": {
+            "en": "Nora Aziz",
+            "ar": "نورا عزيز"
+          },
+          "role": {
+            "en": "Guest Review",
+            "ar": "تقييم ضيف"
+          },
+          "quote": {
+            "en": "The stay was calm and organized, exactly what we wanted in Madinah.",
+            "ar": "الإقامة كانت هادئة ومنظمة، وهذا بالضبط ما كنا نبحث عنه في المدينة."
+          },
+          "rating": 4,
+          "submittedAt": "2026-03-10T10:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "hotel-nasaem",
+      "slug": "nasaem-al-jiwar",
+      "name": {
+        "en": "Nasaem Al Jiwar Hotel",
+        "ar": "فندق نسائم الجوار"
+      },
+      "city": "makkah",
+      "cityLabel": {
+        "en": "Makkah Al Mukarramah",
+        "ar": "مكة المكرمة"
+      },
+      "starRating": 5,
+      "roomCount": 731,
+      "badge": {
+        "en": "High Capacity in Makkah",
+        "ar": "سعة عالية في مكة"
+      },
+      "heroImage": "/uploads/seed/0K9A6699.jpg",
+      "primaryImage": "/uploads/seed/0K9A6699.jpg",
+      "shortDescription": {
+        "en": "A high-capacity Makkah hotel built for strong seasonal operations and structured guest movement.",
+        "ar": "فندق كبير في مكة المكرمة مصمم لاستيعاب المواسم بكفاءة عالية وحركة ضيوف منظمة."
+      },
+      "description": {
+        "en": "Nasaem Al Jiwar Hotel in Makkah is structured for high-demand seasons, combining scale, operational discipline, and accommodation options that serve pilgrims, families, and organized groups.",
+        "ar": "فندق نسائم الجوار في مكة المكرمة مجهز للمواسم عالية الطلب، ويجمع بين السعة الكبيرة والانضباط التشغيلي وخيارات إقامة مناسبة للحجاج والعائلات والمجموعات."
+      },
+      "address": {
+        "en": "Makkah Central District",
+        "ar": "المنطقة المركزية، مكة المكرمة"
+      },
+      "gallery": [
+        {
+          "id": "nasaem-exterior",
+          "category": "exterior",
+          "src": "/uploads/seed/0K9A6699.jpg",
+          "thumb": "/uploads/seed/0K9A6699.jpg",
+          "title": {
+            "en": "Nasaem Exterior",
+            "ar": "واجهة نسائم الجوار"
+          },
+          "description": {
+            "en": "Large-scale exterior presence shaped for heavy guest circulation.",
+            "ar": "واجهة كبيرة مناسبة لحركة ضيوف مكثفة."
+          },
+          "alt": {
+            "en": "Nasaem Exterior",
+            "ar": "واجهة نسائم الجوار"
+          }
+        },
+        {
+          "id": "nasaem-lobby",
+          "category": "lobby",
+          "src": "/uploads/seed/0K9A6673.jpg",
+          "thumb": "/uploads/seed/0K9A6673.jpg",
+          "title": {
+            "en": "Reception Experience",
+            "ar": "تجربة الاستقبال"
+          },
+          "description": {
+            "en": "A lobby layout focused on flow and large-volume arrivals.",
+            "ar": "تصميم استقبال مهيأ للتعامل مع أعداد كبيرة من الضيوف."
+          },
+          "alt": {
+            "en": "Reception Experience",
+            "ar": "تجربة الاستقبال"
+          }
+        },
+        {
+          "id": "nasaem-room",
+          "category": "rooms",
+          "src": "/uploads/seed/0K9A6780.jpg",
+          "thumb": "/uploads/seed/0K9A6780.jpg",
+          "title": {
+            "en": "Twin Room",
+            "ar": "غرفة مزدوجة"
+          },
+          "description": {
+            "en": "Comfortable room setup for pilgrims and short city stays.",
+            "ar": "غرفة مريحة مناسبة للحجاج والإقامات القصيرة."
+          },
+          "alt": {
+            "en": "Twin Room",
+            "ar": "غرفة مزدوجة"
+          }
+        },
+        {
+          "id": "nasaem-suite",
+          "category": "suites",
+          "src": "/uploads/seed/0K9A6748.jpg",
+          "thumb": "/uploads/seed/0K9A6748.jpg",
+          "title": {
+            "en": "Senior Suite",
+            "ar": "جناح سينيور"
+          },
+          "description": {
+            "en": "A larger suite option with higher privacy and lounge space.",
+            "ar": "جناح أكبر مع خصوصية أعلى وصالة جلوس."
+          },
+          "alt": {
+            "en": "Senior Suite",
+            "ar": "جناح سينيور"
+          }
+        },
+        {
+          "id": "nasaem-amenities",
+          "category": "amenities",
+          "src": "/uploads/seed/0K9A6736.jpg",
+          "thumb": "/uploads/seed/0K9A6736.jpg",
+          "title": {
+            "en": "Hotel Facilities",
+            "ar": "مرافق الفندق"
+          },
+          "description": {
+            "en": "Hospitality facilities designed for high-occupancy operations.",
+            "ar": "مرافق مصممة لخدمة الإشغال المرتفع بكفاءة."
+          },
+          "alt": {
+            "en": "Hotel Facilities",
+            "ar": "مرافق الفندق"
+          }
+        }
+      ],
+      "amenityHighlights": [
+        {
+          "en": "Large room inventory",
+          "ar": "مخزون غرف كبير"
+        },
+        {
+          "en": "Strong seasonal readiness",
+          "ar": "جاهزية موسمية عالية"
+        },
+        {
+          "en": "Group-friendly operations",
+          "ar": "مناسب للمجموعات"
+        },
+        {
+          "en": "Premium guest handling flow",
+          "ar": "تنظيم احترافي لحركة الضيوف"
+        }
+      ],
+      "roomTypes": [
+        {
+          "id": "nasaem-classic",
+          "name": {
+            "en": "Classic Twin Room",
+            "ar": "غرفة كلاسيك مزدوجة"
+          },
+          "category": "room",
+          "occupancy": 2,
+          "size": {
+            "en": "30 sqm",
+            "ar": "30 م²"
+          },
+          "beds": {
+            "en": "2 Twin Beds",
+            "ar": "سريران منفصلان"
+          },
+          "baseRate": 860,
+          "currency": "SAR",
+          "description": {
+            "en": "A practical twin room for pilgrims and small groups with easy movement and efficient storage.",
+            "ar": "غرفة مزدوجة عملية للحجاج والمجموعات الصغيرة مع سهولة حركة ومساحة تخزين جيدة."
+          },
+          "amenities": [
+            {
+              "en": "Twin layout",
+              "ar": "توزيع بسريرين"
+            },
+            {
+              "en": "Prayer preparation area",
+              "ar": "مساحة تجهيز مناسبة"
+            },
+            {
+              "en": "Satellite TV",
+              "ar": "تلفاز فضائي"
+            }
+          ],
+          "images": [
+            "/uploads/seed/0K9A6780.jpg",
+            "/uploads/seed/0K9A6699.jpg"
+          ],
+          "availability": [
+            {
+              "id": "nasaem-classic-1",
+              "startDate": "2026-04-01",
+              "endDate": "2026-04-25",
+              "availableUnits": 40,
+              "nightlyRate": 860,
+              "closed": false
+            },
+            {
+              "id": "nasaem-classic-2",
+              "startDate": "2026-04-26",
+              "endDate": "2026-05-20",
+              "availableUnits": 22,
+              "nightlyRate": 910,
+              "closed": false
+            }
+          ]
+        },
+        {
+          "id": "nasaem-triple",
+          "name": {
+            "en": "Triple Guest Room",
+            "ar": "غرفة ثلاثية"
+          },
+          "category": "room",
+          "occupancy": 3,
+          "size": {
+            "en": "36 sqm",
+            "ar": "36 م²"
+          },
+          "beds": {
+            "en": "3 Single Beds",
+            "ar": "3 أسرة مفردة"
+          },
+          "baseRate": 980,
+          "currency": "SAR",
+          "description": {
+            "en": "A larger room mix suited for group travel, pilgrimage, and practical multi-guest stays.",
+            "ar": "غرفة أكبر مناسبة لرحلات المجموعات والحج والإقامات العملية متعددة الضيوف."
+          },
+          "amenities": [
+            {
+              "en": "Extra storage",
+              "ar": "مساحة تخزين إضافية"
+            },
+            {
+              "en": "Flexible seating",
+              "ar": "جلسة مرنة"
+            },
+            {
+              "en": "Daily housekeeping",
+              "ar": "خدمة غرف يومية"
+            }
+          ],
+          "images": [
+            "/uploads/seed/0K9A6699.jpg",
+            "/uploads/seed/0K9A6736.jpg"
+          ],
+          "availability": [
+            {
+              "id": "nasaem-triple-1",
+              "startDate": "2026-04-01",
+              "endDate": "2026-04-18",
+              "availableUnits": 16,
+              "nightlyRate": 980,
+              "closed": false
+            },
+            {
+              "id": "nasaem-triple-2",
+              "startDate": "2026-04-19",
+              "endDate": "2026-05-20",
+              "availableUnits": 12,
+              "nightlyRate": 1030,
+              "closed": false
+            }
+          ]
+        },
+        {
+          "id": "nasaem-senior-suite",
+          "name": {
+            "en": "Senior Suite",
+            "ar": "جناح سينيور"
+          },
+          "category": "suite",
+          "occupancy": 4,
+          "size": {
+            "en": "70 sqm",
+            "ar": "70 م²"
+          },
+          "beds": {
+            "en": "1 King Bed + Living Area",
+            "ar": "سرير كينج + معيشة"
+          },
+          "baseRate": 2140,
+          "currency": "SAR",
+          "description": {
+            "en": "A premium suite for longer stays, family comfort, and better privacy inside a large Makkah operation.",
+            "ar": "جناح فاخر للإقامات الأطول وراحة العائلة وخصوصية أعلى داخل فندق كبير في مكة."
+          },
+          "amenities": [
+            {
+              "en": "Living room",
+              "ar": "غرفة معيشة"
+            },
+            {
+              "en": "Premium service line",
+              "ar": "خدمة مميزة"
+            },
+            {
+              "en": "Additional bath area",
+              "ar": "منطقة حمام إضافية"
+            }
+          ],
+          "images": [
+            "/uploads/seed/0K9A6748.jpg",
+            "/uploads/seed/0K9A6816.jpg"
+          ],
+          "availability": [
+            {
+              "id": "nasaem-senior-1",
+              "startDate": "2026-04-01",
+              "endDate": "2026-04-30",
+              "availableUnits": 5,
+              "nightlyRate": 2140,
+              "closed": false
+            },
+            {
+              "id": "nasaem-senior-2",
+              "startDate": "2026-05-01",
+              "endDate": "2026-05-20",
+              "availableUnits": 3,
+              "nightlyRate": 2260,
+              "closed": false
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "review-nasaem-1",
+          "hotelId": "hotel-nasaem",
+          "name": {
+            "en": "Samir Nabil",
+            "ar": "سمير نبيل"
+          },
+          "role": {
+            "en": "Guest Review",
+            "ar": "تقييم ضيف"
+          },
+          "quote": {
+            "en": "The hotel handled high occupancy professionally and our booking was smooth.",
+            "ar": "الفندق تعامل مع الإشغال العالي باحترافية والحجز كان سلساً جداً."
+          },
+          "rating": 5,
+          "submittedAt": "2026-03-10T10:00:00.000Z"
+        },
+        {
+          "id": "review-nasaem-2",
+          "hotelId": "hotel-nasaem",
+          "name": {
+            "en": "Leila Mansour",
+            "ar": "ليلى منصور"
+          },
+          "role": {
+            "en": "Guest Review",
+            "ar": "تقييم ضيف"
+          },
+          "quote": {
+            "en": "A strong Makkah option for groups, with organized movement and clear communication.",
+            "ar": "خيار قوي في مكة للمجموعات مع تنظيم ممتاز ووضوح في التواصل."
+          },
+          "rating": 4,
+          "submittedAt": "2026-03-10T10:00:00.000Z"
+        }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "tm-public-d36ff1b1-6163-4056-9492-e4dc8cc48461",
+      "name": {
+        "en": "يوسف",
+        "ar": "يوسف"
+      },
+      "role": {
+        "en": "Guest",
+        "ar": "ضيف"
+      },
+      "quote": {
+        "en": "اطلاله جميله وراحه تامه",
+        "ar": "اطلاله جميله وراحه تامه"
+      },
+      "rating": 4,
+      "submittedAt": "2026-03-10T19:49:23.192Z"
+    },
+    {
+      "id": "tm-public-22a0d2c0-e23a-40e3-9059-ac25fcdb710c",
+      "name": {
+        "en": "QA User",
+        "ar": "QA User"
+      },
+      "role": {
+        "en": "Guest",
+        "ar": "ضيف"
+      },
+      "quote": {
+        "en": "Excellent stay and very good service.",
+        "ar": "Excellent stay and very good service."
+      },
+      "rating": 5,
+      "submittedAt": "2026-03-10T13:45:27.283Z"
+    },
+    {
+      "id": "tm-public-97db11f5-da5d-4e10-98f4-fd713259ab1d",
+      "name": {
+        "en": "QA User",
+        "ar": "QA User"
+      },
+      "role": {
+        "en": "Guest",
+        "ar": "ضيف"
+      },
+      "quote": {
+        "en": "??? ????? ?????? ????? ??????.",
+        "ar": "??? ????? ?????? ????? ??????."
+      },
+      "rating": 5,
+      "submittedAt": "2026-03-10T13:43:25.738Z"
+    },
+    {
+      "id": "tm-01",
+      "name": {
+        "en": "Amina Khaled",
+        "ar": "أمينة خالد"
+      },
+      "role": {
+        "en": "Creative Director, Riyadh",
+        "ar": "مديرة إبداعية، الرياض"
+      },
+      "quote": {
+        "en": "Every space has intent and rhythm. This is cinematic luxury without excess noise.",
+        "ar": "كل مساحة لها نية وإيقاع. هذه فخامة سينمائية بلا ضوضاء زائدة."
+      },
+      "rating": 5
+    },
+    {
+      "id": "tm-02",
+      "name": {
+        "en": "Omar Hegazy",
+        "ar": "عمر حجازي"
+      },
+      "role": {
+        "en": "Startup Founder, Cairo",
+        "ar": "مؤسس شركة ناشئة، القاهرة"
+      },
+      "quote": {
+        "en": "Fast onboarding, practical systems, and one of the most consistent concierge teams I have used.",
+        "ar": "تسجيل سريع وأنظمة عملية وفريق كونسيرج من الأكثر ثباتًا في الجودة."
+      },
+      "rating": 5
+    },
+    {
+      "id": "tm-03",
+      "name": {
+        "en": "Leila Mansour",
+        "ar": "ليلى منصور"
+      },
+      "role": {
+        "en": "Brand Strategist, Dubai",
+        "ar": "استراتيجية علامة، دبي"
+      },
+      "quote": {
+        "en": "Design identity is bold and clear, and the dining concepts are truly differentiated.",
+        "ar": "الهوية التصميمية جريئة وواضحة، ومفاهيم المطاعم مختلفة فعلًا."
+      },
+      "rating": 5
+    },
+    {
+      "id": "tm-04",
+      "name": {
+        "en": "Karim Fares",
+        "ar": "كريم فارس"
+      },
+      "role": {
+        "en": "Consultant, London",
+        "ar": "استشاري، لندن"
+      },
+      "quote": {
+        "en": "The suite layout made private meetings and evening hosting effortless.",
+        "ar": "تخطيط الجناح جعل الاجتماعات الخاصة والاستضافة المسائية سهلة جدًا."
+      },
+      "rating": 4
+    },
+    {
+      "id": "tm-05",
+      "name": {
+        "en": "Nora Aziz",
+        "ar": "نورا عزيز"
+      },
+      "role": {
+        "en": "Travel Journalist, Amman",
+        "ar": "صحفية سفر، عمان"
+      },
+      "quote": {
+        "en": "This property understands pacing: calm mornings, energetic evenings, zero friction.",
+        "ar": "هذه المنشأة تفهم الإيقاع: صباحات هادئة، أمسيات نشطة، دون احتكاك."
+      },
+      "rating": 5
+    },
+    {
+      "id": "tm-06",
+      "name": {
+        "en": "Hassan Adel",
+        "ar": "حسن عادل"
+      },
+      "role": {
+        "en": "Product Lead, Berlin",
+        "ar": "قائد منتج، برلين"
+      },
+      "quote": {
+        "en": "Practical luxury and thoughtful details from arrival to checkout.",
+        "ar": "فخامة عملية وتفاصيل مدروسة من الوصول حتى المغادرة."
+      },
+      "rating": 5
+    },
+    {
+      "id": "tm-07",
+      "name": {
+        "en": "Maya Rahim",
+        "ar": "مايا رحيم"
+      },
+      "role": {
+        "en": "Photographer, Doha",
+        "ar": "مُصورة، الدوحة"
+      },
+      "quote": {
+        "en": "Light gradients are exceptional. The property is a visual playground.",
+        "ar": "تدرجات الضوء استثنائية. المكان ملعب بصري حقيقي."
+      },
+      "rating": 5
+    },
+    {
+      "id": "tm-08",
+      "name": {
+        "en": "Samir Nabil",
+        "ar": "سمير نبيل"
+      },
+      "role": {
+        "en": "Finance Executive, Jeddah",
+        "ar": "مدير مالي، جدة"
+      },
+      "quote": {
+        "en": "Everything is clear, fast, and refined. Exactly what premium should feel like.",
+        "ar": "كل شيء واضح وسريع وراقي. هذا هو الإحساس الصحيح للفخامة."
+      },
+      "rating": 4
+    },
+    {
+      "id": "tm-91jnwld",
+      "name": {
+        "en": "omar",
+        "ar": "عمر"
+      },
+      "role": {
+        "en": "Role",
+        "ar": "ضيف"
+      },
+      "quote": {
+        "en": "Quote",
+        "ar": "مكان راقي وجوده عاليه "
+      },
+      "rating": 5
+    },
+    {
+      "id": "tm-laphlf3",
+      "name": {
+        "en": "New guest",
+        "ar": "ابو ريان"
+      },
+      "role": {
+        "en": "Role",
+        "ar": "مضيف مميز"
+      },
+      "quote": {
+        "en": "Quote",
+        "ar": "مكان اكثر من رائع"
+      },
+      "rating": 5
+    },
+    {
+      "id": "tm-mdo18nv",
+      "name": {
+        "en": "New guest",
+        "ar": "عمر"
+      },
+      "role": {
+        "en": "Role",
+        "ar": "ضيف"
+      },
+      "quote": {
+        "en": "Quote",
+        "ar": "مكان اكثر من رائع وجوده جيده جدا "
+      },
+      "rating": 5
+    },
+    {
+      "id": "tm-smgcil7",
+      "name": {
+        "en": "New guest",
+        "ar": "عمر"
+      },
+      "role": {
+        "en": "Role",
+        "ar": "ضيف"
+      },
+      "quote": {
+        "en": "Quote",
+        "ar": "مكان جميل واكل جميل "
+      },
+      "rating": 3
+    }
+  ],
+  "contactInfo": {
+    "phones": [
+      "+20 2 5577 4400",
+      "+971 4 882 1940"
+    ],
+    "emails": [
+      "reservations@luxuriousinferno.com",
+      "concierge@luxuriousinferno.com"
+    ],
+    "address": {
+      "en": "Ember District, Skyline Avenue, Downtown",
+      "ar": "حي الجمر، شارع سكاي لاين، وسط المدينة"
+    },
+    "mapUrl": "https://maps.google.com"
+  },
+  "searchSettings": {
+    "defaultCity": "all",
+    "defaultCheckIn": "2026-04-10",
+    "defaultCheckOut": "2026-04-13",
+    "defaultGuests": 2,
+    "cities": [
+      {
+        "id": "all",
+        "label": {
+          "en": "All Cities",
+          "ar": "كل المدن"
+        }
+      },
+      {
+        "id": "makkah",
+        "label": {
+          "en": "Makkah Al Mukarramah",
+          "ar": "مكة المكرمة"
+        }
+      },
+      {
+        "id": "madinah",
+        "label": {
+          "en": "Al Madinah Al Munawwarah",
+          "ar": "المدينة المنورة"
+        }
+      }
+    ]
+  },
+  "priceTables": {
+    "rooms": [
+      {
+        "id": "room-1",
+        "name": {
+          "en": "Essential Room",
+          "ar": "غرفة أساسية"
+        },
+        "area": "38m2",
+        "occupancy": {
+          "en": "2 Adults",
+          "ar": "2 بالغين"
+        },
+        "price": "$240 / night",
+        "features": {
+          "en": "Rain shower, smart control, city glow view",
+          "ar": "دش مطري، تحكم ذكي، إطلالة مدينة"
+        }
+      },
+      {
+        "id": "room-2",
+        "name": {
+          "en": "Deluxe Ember Room",
+          "ar": "غرفة ديلوكس جمرية"
+        },
+        "area": "46m2",
+        "occupancy": {
+          "en": "2 Adults + 1 Child",
+          "ar": "2 بالغين + 1 طفل"
+        },
+        "price": "$320 / night",
+        "features": {
+          "en": "Lounge corner, premium bedding, balcony",
+          "ar": "ركن جلوس، أسرّة فاخرة، شرفة"
+        }
+      },
+      {
+        "id": "room-3",
+        "name": {
+          "en": "Panorama Room",
+          "ar": "غرفة بانوراما"
+        },
+        "area": "52m2",
+        "occupancy": {
+          "en": "3 Adults",
+          "ar": "3 بالغين"
+        },
+        "price": "$395 / night",
+        "features": {
+          "en": "Wide glass, curated minibar, private lane",
+          "ar": "زجاج بانورامي، ميني بار، مسار خاص"
+        }
+      }
+    ],
+    "suites": [
+      {
+        "id": "suite-1",
+        "name": {
+          "en": "Signature Suite",
+          "ar": "جناح سيجنتشر"
+        },
+        "area": "82m2",
+        "occupancy": {
+          "en": "3 Adults",
+          "ar": "3 بالغين"
+        },
+        "price": "$560 / night",
+        "features": {
+          "en": "Living salon, immersive audio, concierge dining",
+          "ar": "صالة معيشة، صوت غامر، خدمة طعام"
+        }
+      },
+      {
+        "id": "suite-2",
+        "name": {
+          "en": "Inferno Residence",
+          "ar": "إقامة إنفيرنو"
+        },
+        "area": "118m2",
+        "occupancy": {
+          "en": "4 Adults",
+          "ar": "4 بالغين"
+        },
+        "price": "$780 / night",
+        "features": {
+          "en": "Private terrace, butler line, wellness package",
+          "ar": "تراس خاص، باتلر، باقة عافية"
+        }
+      },
+      {
+        "id": "suite-3",
+        "name": {
+          "en": "Glass Penthouse",
+          "ar": "بنتهاوس زجاجي"
+        },
+        "area": "168m2",
+        "occupancy": {
+          "en": "5 Adults",
+          "ar": "5 بالغين"
+        },
+        "price": "$1,250 / night",
+        "features": {
+          "en": "Executive table, private access, skyline deck",
+          "ar": "طاولة تنفيذية، وصول خاص، سطح إطلالة"
+        }
+      }
+    ],
+    "dining": [
+      {
+        "id": "dining-1",
+        "name": {
+          "en": "Fireline Grill",
+          "ar": "فايرلاين جريل"
+        },
+        "area": {
+          "en": "Open-Fire Kitchen",
+          "ar": "مطبخ لهب مفتوح"
+        },
+        "occupancy": {
+          "en": "80 Seats",
+          "ar": "80 مقعدًا"
+        },
+        "price": "$95 avg / guest",
+        "features": {
+          "en": "Dry-aged cuts, ember vegetables, pairing",
+          "ar": "لحوم معتقة، خضروات جمرية، توليف"
+        }
+      },
+      {
+        "id": "dining-2",
+        "name": {
+          "en": "Copper Lounge",
+          "ar": "كوبر لاونج"
+        },
+        "area": {
+          "en": "Skyline Lounge",
+          "ar": "لاونج بإطلالة"
+        },
+        "occupancy": {
+          "en": "46 Seats",
+          "ar": "46 مقعدًا"
+        },
+        "price": "$68 avg / guest",
+        "features": {
+          "en": "Artisan tapas, signature mocktails, jazz",
+          "ar": "تاباس حرفية، مشروبات مميزة، جاز"
+        }
+      },
+      {
+        "id": "dining-3",
+        "name": {
+          "en": "Chef Glass Table",
+          "ar": "طاولة الشيف الزجاجية"
+        },
+        "area": {
+          "en": "Private Experience",
+          "ar": "تجربة خاصة"
+        },
+        "occupancy": {
+          "en": "10 Seats",
+          "ar": "10 مقاعد"
+        },
+        "price": "$180 tasting",
+        "features": {
+          "en": "7-course menu, story service",
+          "ar": "قائمة 7 أطباق، خدمة قصصية"
+        }
+      }
+    ],
+    "experiences": [
+      {
+        "id": "xp-1",
+        "name": {
+          "en": "Urban Ember Route",
+          "ar": "مسار الجمر الحضري"
+        },
+        "area": {
+          "en": "6 Hours",
+          "ar": "6 ساعات"
+        },
+        "occupancy": {
+          "en": "Up to 4 Guests",
+          "ar": "حتى 4 ضيوف"
+        },
+        "price": "$420 / package",
+        "features": {
+          "en": "Private driver, design district, sunset roof",
+          "ar": "سائق خاص، منطقة التصميم، محطة غروب"
+        }
+      },
+      {
+        "id": "xp-2",
+        "name": {
+          "en": "Wellness Reset",
+          "ar": "إعادة ضبط العافية"
+        },
+        "area": {
+          "en": "Full Day",
+          "ar": "يوم كامل"
+        },
+        "occupancy": {
+          "en": "2 Guests",
+          "ar": "ضيفان"
+        },
+        "price": "$360 / package",
+        "features": {
+          "en": "Spa ritual, nutrition consult, breathwork",
+          "ar": "طقس سبا، استشارة تغذية، تنفس"
+        }
+      },
+      {
+        "id": "xp-3",
+        "name": {
+          "en": "Executive Precision Day",
+          "ar": "يوم تنفيذي دقيق"
+        },
+        "area": {
+          "en": "8 Hours",
+          "ar": "8 ساعات"
+        },
+        "occupancy": {
+          "en": "1-3 Guests",
+          "ar": "1-3 ضيوف"
+        },
+        "price": "$540 / package",
+        "features": {
+          "en": "Meeting pods, transfer, late-night dining",
+          "ar": "مساحات اجتماع، نقل، عشاء ليلي"
+        }
+      }
+    ]
+  },
+  "faq": [
+    {
+      "id": "faq-01",
+      "category": "booking",
+      "question": {
+        "en": "What is your cancellation policy?",
+        "ar": "ما هي سياسة الإلغاء؟"
+      },
+      "answer": {
+        "en": "Most rates allow free cancellation up to 72 hours before arrival, while peak offers can be non-refundable.",
+        "ar": "تسمح معظم الأسعار بإلغاء مجاني حتى 72 ساعة قبل الوصول، بينما قد تكون عروض الذروة غير قابلة للاسترداد."
+      }
+    },
+    {
+      "id": "faq-02",
+      "category": "booking",
+      "question": {
+        "en": "Do you provide airport transfer?",
+        "ar": "هل توفرون خدمة نقل المطار؟"
+      },
+      "answer": {
+        "en": "Yes, shared and private transfer options are available 24/7 and can be booked at checkout.",
+        "ar": "نعم، تتوفر خيارات نقل مشتركة وخاصة 24/7 ويمكن حجزها أثناء إتمام الحجز."
+      }
+    },
+    {
+      "id": "faq-03",
+      "category": "rooms",
+      "question": {
+        "en": "Are interconnected rooms available?",
+        "ar": "هل الغرف المتصلة متاحة؟"
+      },
+      "answer": {
+        "en": "Interconnected rooms are available in selected categories and depend on real-time inventory.",
+        "ar": "الغرف المتصلة متاحة في فئات محددة وتعتمد على التوفر اللحظي."
+      }
+    },
+    {
+      "id": "faq-04",
+      "category": "dining",
+      "question": {
+        "en": "Can menus support allergies?",
+        "ar": "هل القوائم تدعم الحساسية الغذائية؟"
+      },
+      "answer": {
+        "en": "Our culinary team supports vegetarian, vegan, gluten-free, and allergy-safe requests.",
+        "ar": "فريق الطهي يدعم طلبات النباتيين والخالي من الجلوتين والحساسية الغذائية."
+      }
+    },
+    {
+      "id": "faq-05",
+      "category": "amenities",
+      "question": {
+        "en": "What wellness facilities are included?",
+        "ar": "ما مرافق العافية المتضمنة؟"
+      },
+      "answer": {
+        "en": "Thermal suites, recovery lounge, gym studio, and guided movement sessions are available.",
+        "ar": "تتوفر الأجنحة الحرارية وصالة التعافي واستوديو اللياقة وجلسات الحركة الموجهة."
+      }
+    },
+    {
+      "id": "faq-06",
+      "category": "policies",
+      "question": {
+        "en": "Are all indoor areas non-smoking?",
+        "ar": "هل جميع المساحات الداخلية غير مخصصة للتدخين؟"
+      },
+      "answer": {
+        "en": "Yes, all indoor areas are non-smoking with dedicated outdoor smoking zones.",
+        "ar": "نعم، جميع المساحات الداخلية غير مخصصة للتدخين مع مناطق خارجية مخصصة وهذا لراحة العميل"
+      }
+    },
+    {
+      "id": "faq-07",
+      "category": "transport",
+      "question": {
+        "en": "Can I reserve chauffeur service?",
+        "ar": "هل يمكن حجز سائق خاص؟"
+      },
+      "answer": {
+        "en": "Executive sedans and premium SUVs are available by hour or full-day booking.",
+        "ar": "تتوفر سيارات سيدان تنفيذية وSUV فاخرة بالحجز بالساعة أو اليوم الكامل."
+      }
+    },
+    {
+      "id": "faq-08",
+      "category": "policies",
+      "question": {
+        "en": "Do you host private events?",
+        "ar": "هل تستضيفون فعاليات خاصة؟"
+      },
+      "answer": {
+        "en": "Yes, our events desk coordinates weddings, launches, and executive gatherings.",
+        "ar": "نعم، مكتب الفعاليات لدينا ينظم حفلات الزفاف والإطلاقات والتجمعات التنفيذية."
+      }
+    },
+    {
+      "id": "faq-09",
+      "category": "booking",
+      "question": {
+        "en": "Can I modify reservation dates?",
+        "ar": "هل يمكن تعديل تواريخ الحجز؟"
+      },
+      "answer": {
+        "en": "Date changes are possible based on rate policy and availability, with potential fare differences.",
+        "ar": "تعديل التواريخ ممكن حسب سياسة السعر والتوفر، وقد تُطبق فروقات سعرية."
+      }
+    },
+    {
+      "id": "faq-10",
+      "category": "amenities",
+      "question": {
+        "en": "Do you have accessibility-ready rooms?",
+        "ar": "هل تتوفر غرف مجهزة لإمكانية الوصول؟"
+      },
+      "answer": {
+        "en": "Yes, we provide adapted bathrooms and mobility-friendly room layouts.",
+        "ar": "نعم، نوفر حمامات معدلة وتخطيطات غرف مناسبة للحركة."
+      }
+    },
+    {
+      "id": "faq-11",
+      "category": "transport",
+      "question": {
+        "en": "Is valet parking available?",
+        "ar": "هل خدمة صف السيارات متاحة؟"
+      },
+      "answer": {
+        "en": "Valet is complimentary for suites and available at fixed rates for other categories.",
+        "ar": "خدمة صف السيارات مجانية للأجنحة ومتاحة برسوم ثابتة للفئات الأخرى."
+      }
+    },
+    {
+      "id": "faq-12",
+      "category": "policies",
+      "question": {
+        "en": "What are check-in/check-out times?",
+        "ar": "ما مواعيد تسجيل الدخول والمغادرة؟"
+      },
+      "answer": {
+        "en": "Standard check-in starts 3:00 PM and checkout is 12:00 PM with express options on request.",
+        "ar": "تسجيل الدخول يبدأ 3:00 مساءً والمغادرة 12:00 ظهرًا مع خيارات سريعة عند الطلب."
+      }
+    }
+  ],
+  "offers": [
+    {
+      "id": "offer-01",
+      "tag": {
+        "en": "Weekend Premium",
+        "ar": "عطلة نهاية أسبوع مميزة"
+      },
+      "title": {
+        "en": "72-Hour Inferno Escape",
+        "ar": "هروب إنفيرنو لـ72 ساعة"
+      },
+      "description": {
+        "en": "Three nights with dining credits, late checkout, and wellness access.",
+        "ar": "ثلاث ليالٍ مع رصيد مطاعم ومغادرة متأخرة ودخول مرافق العافية."
+      },
+      "price": "$890 total",
+      "cta": {
+        "en": "Reserve Package",
+        "ar": "احجز الباقة"
+      }
+    },
+    {
+      "id": "offer-02",
+      "tag": {
+        "en": "Executive",
+        "ar": "تنفيذي"
+      },
+      "title": {
+        "en": "Boardroom + Suite Bundle",
+        "ar": "باقة جناح + اجتماعات"
+      },
+      "description": {
+        "en": "Suite stay with private meeting hours and concierge workflow.",
+        "ar": "إقامة جناح مع ساعات اجتماعات خاصة وإدارة كونسيرج."
+      },
+      "price": "$1,450 total",
+      "cta": {
+        "en": "Book Executive",
+        "ar": "احجز التنفيذي"
+      }
+    },
+    {
+      "id": "offer-03",
+      "tag": {
+        "en": "Dining",
+        "ar": "مطاعم"
+      },
+      "title": {
+        "en": "Chef Table Discovery",
+        "ar": "اكتشاف طاولة الشيف"
+      },
+      "description": {
+        "en": "Two-night stay plus curated 7-course tasting for two.",
+        "ar": "إقامة ليلتين مع تذوق 7 أطباق لشخصين."
+      },
+      "price": "$760 total",
+      "cta": {
+        "en": "Claim Dining Offer",
+        "ar": "احصل على العرض"
+      }
+    },
+    {
+      "id": "offer-04",
+      "tag": {
+        "en": "Wellness",
+        "ar": "عافية"
+      },
+      "title": {
+        "en": "Reset & Recover Week",
+        "ar": "أسبوع إعادة التوازن"
+      },
+      "description": {
+        "en": "Five-night stay with infrared recovery and nutrition guidance.",
+        "ar": "إقامة 5 ليالٍ مع تعافٍ بالأشعة تحت الحمراء وإرشاد غذائي."
+      },
+      "price": "$1,980 total",
+      "cta": {
+        "en": "Start Wellness Plan",
+        "ar": "ابدأ خطة العافية"
+      }
+    },
+    {
+      "id": "offer-05",
+      "tag": {
+        "en": "Family",
+        "ar": "عائلي"
+      },
+      "title": {
+        "en": "Family Ember Edition",
+        "ar": "نسخة العائلة الجمرية"
+      },
+      "description": {
+        "en": "Connecting rooms, family breakfast, and activity concierge support.",
+        "ar": "غرف متصلة وإفطار عائلي ودعم كونسيرج للأنشطة."
+      },
+      "price": "$1,120 total",
+      "cta": {
+        "en": "View Family Offer",
+        "ar": "عرض الباقة العائلية"
+      }
+    },
+    {
+      "id": "offer-06",
+      "tag": {
+        "en": "Romance",
+        "ar": "رومانسي"
+      },
+      "title": {
+        "en": "Copper Night Ritual",
+        "ar": "طقس الليلة النحاسية"
+      },
+      "description": {
+        "en": "Suite booking with private terrace dinner and cinematic setup.",
+        "ar": "حجز جناح مع عشاء خاص على التراس وتجهيز سينمائي."
+      },
+      "price": "$990 total",
+      "cta": {
+        "en": "Plan the Night",
+        "ar": "خطط الليلة"
+      }
+    }
+  ],
+  "blog": [
+    {
+      "id": "blog-01",
+      "title": {
+        "en": "Designing Hospitality Through Light Gradients",
+        "ar": "تصميم الضيافة عبر تدرجات الضوء"
+      },
+      "excerpt": {
+        "en": "An architectural look at how controlled contrast affects guest mood and recall.",
+        "ar": "نظرة معمارية على أثر التباين المنضبط في مزاج الضيف وتذكره للتجربة."
+      },
+      "date": "2026-01-16",
+      "category": "design"
+    },
+    {
+      "id": "blog-02",
+      "title": {
+        "en": "How Concierge AI Supports Human Service",
+        "ar": "كيف يدعم ذكاء الكونسيرج الخدمة البشرية"
+      },
+      "excerpt": {
+        "en": "Operational AI speeds up responses while preserving warmth and empathy.",
+        "ar": "الذكاء التشغيلي يسرّع الاستجابة مع الحفاظ على الدفء الإنساني."
+      },
+      "date": "2026-01-24",
+      "category": "operations"
+    },
+    {
+      "id": "blog-03",
+      "title": {
+        "en": "Chef Notes: Building a Fire-Forward Menu",
+        "ar": "ملاحظات الشيف: بناء قائمة بطابع النار"
+      },
+      "excerpt": {
+        "en": "Balancing smoke depth, texture, and ingredient clarity in premium cuisine.",
+        "ar": "موازنة عمق الدخان والقوام ووضوح المكونات في المطبخ الراقي."
+      },
+      "date": "2026-02-03",
+      "category": "dining"
+    },
+    {
+      "id": "blog-04",
+      "title": {
+        "en": "The Anatomy of a 60-Second Check-In",
+        "ar": "تشريح تسجيل دخول في 60 ثانية"
+      },
+      "excerpt": {
+        "en": "A practical walkthrough of front-desk choreography and digital readiness.",
+        "ar": "شرح عملي لكوريوغرافيا الاستقبال والجاهزية الرقمية."
+      },
+      "date": "2026-02-09",
+      "category": "operations"
+    },
+    {
+      "id": "blog-05",
+      "title": {
+        "en": "Wellness Labs Beyond Spa Trends",
+        "ar": "مختبرات العافية بعد صيحات السبا"
+      },
+      "excerpt": {
+        "en": "Recovery protocols that improve focus and travel resilience.",
+        "ar": "بروتوكولات تعافٍ تعزز التركيز والمرونة أثناء السفر."
+      },
+      "date": "2026-02-15",
+      "category": "wellness"
+    },
+    {
+      "id": "blog-06",
+      "title": {
+        "en": "The New Language of Urban Luxury",
+        "ar": "اللغة الجديدة للفخامة الحضرية"
+      },
+      "excerpt": {
+        "en": "A reading of luxury demand shifts across MENA metropolitan markets.",
+        "ar": "قراءة لتحولات طلب الفخامة في أسواق المدن بالشرق الأوسط."
+      },
+      "date": "2026-03-06",
+      "category": "insights"
+    },
+    {
+      "id": "blog-07",
+      "title": {
+        "en": "From Arrival to Departure: Service Timeline",
+        "ar": "من الوصول للمغادرة: خط زمني للخدمة"
+      },
+      "excerpt": {
+        "en": "How cross-team handoffs maintain polish without slowing operations.",
+        "ar": "كيف تحافظ نقاط تسليم الفرق على الرقي دون إبطاء التشغيل."
+      },
+      "date": "2026-03-07",
+      "category": "operations"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "rooms-01",
+      "category": "rooms",
+      "src": "/uploads/1773140334967-3b92dafa-cffc-4653-b347-750b27a10633.jpg",
+      "thumb": "/uploads/1773140334967-3b92dafa-cffc-4653-b347-750b27a10633.jpg",
+      "title": {
+        "en": "Rooms Frame 01",
+        "ar": "لقطة 01 من الغرف"
+      },
+      "description": {
+        "en": "Cinematic rooms shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الغرف مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno rooms scene 01",
+        "ar": "مشهد 01 من فئة الغرف بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "rooms-02",
+      "category": "rooms",
+      "src": "/uploads/1773140353575-8018b743-da23-4389-9123-8fbf7bed6729.jpg",
+      "thumb": "/uploads/1773140353575-8018b743-da23-4389-9123-8fbf7bed6729.jpg",
+      "title": {
+        "en": "Rooms Frame 02",
+        "ar": "لقطة 02 من الغرف"
+      },
+      "description": {
+        "en": "Cinematic rooms shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الغرف مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno rooms scene 02",
+        "ar": "مشهد 02 من فئة الغرف بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "rooms-03",
+      "category": "rooms",
+      "src": "/uploads/1773140367987-61acf23b-5e40-4a3e-b115-4957ee1d7414.jpg",
+      "thumb": "/uploads/1773140367987-61acf23b-5e40-4a3e-b115-4957ee1d7414.jpg",
+      "title": {
+        "en": "Rooms Frame 03",
+        "ar": "لقطة 03 من الغرف"
+      },
+      "description": {
+        "en": "Cinematic rooms shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الغرف مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno rooms scene 03",
+        "ar": "مشهد 03 من فئة الغرف بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "rooms-04",
+      "category": "rooms",
+      "src": "/uploads/seed/0K9A6780.jpg",
+      "thumb": "/uploads/seed/0K9A6780.jpg",
+      "title": {
+        "en": "Rooms Frame 04",
+        "ar": "لقطة 04 من الغرف"
+      },
+      "description": {
+        "en": "Cinematic rooms shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الغرف مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno rooms scene 04",
+        "ar": "مشهد 04 من فئة الغرف بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "rooms-05",
+      "category": "rooms",
+      "src": "/uploads/1773140334967-3b92dafa-cffc-4653-b347-750b27a10633.jpg",
+      "thumb": "/uploads/1773140334967-3b92dafa-cffc-4653-b347-750b27a10633.jpg",
+      "title": {
+        "en": "Rooms Frame 05",
+        "ar": "لقطة 05 من الغرف"
+      },
+      "description": {
+        "en": "Cinematic rooms shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الغرف مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno rooms scene 05",
+        "ar": "مشهد 05 من فئة الغرف بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "rooms-06",
+      "category": "rooms",
+      "src": "/uploads/seed/0K9A6748.jpg",
+      "thumb": "/uploads/seed/0K9A6748.jpg",
+      "title": {
+        "en": "Rooms Frame 06",
+        "ar": "لقطة 06 من الغرف"
+      },
+      "description": {
+        "en": "Cinematic rooms shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الغرف مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno rooms scene 06",
+        "ar": "مشهد 06 من فئة الغرف بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "rooms-07",
+      "category": "rooms",
+      "src": "https://picsum.photos/seed/lux-inferno-rooms-07/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-rooms-07/900/620",
+      "title": {
+        "en": "Rooms Frame 07",
+        "ar": "لقطة 07 من الغرف"
+      },
+      "description": {
+        "en": "Cinematic rooms shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الغرف مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno rooms scene 07",
+        "ar": "مشهد 07 من فئة الغرف بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "rooms-08",
+      "category": "rooms",
+      "src": "https://picsum.photos/seed/lux-inferno-rooms-08/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-rooms-08/900/620",
+      "title": {
+        "en": "Rooms Frame 08",
+        "ar": "لقطة 08 من الغرف"
+      },
+      "description": {
+        "en": "Cinematic rooms shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الغرف مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno rooms scene 08",
+        "ar": "مشهد 08 من فئة الغرف بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "rooms-09",
+      "category": "rooms",
+      "src": "https://picsum.photos/seed/lux-inferno-rooms-09/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-rooms-09/900/620",
+      "title": {
+        "en": "Rooms Frame 09",
+        "ar": "لقطة 09 من الغرف"
+      },
+      "description": {
+        "en": "Cinematic rooms shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الغرف مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno rooms scene 09",
+        "ar": "مشهد 09 من فئة الغرف بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "rooms-10",
+      "category": "rooms",
+      "src": "/uploads/1773140433919-93506bb8-e31a-41c4-9013-58e7a2a1cd7f.jpg",
+      "thumb": "/uploads/1773140433919-93506bb8-e31a-41c4-9013-58e7a2a1cd7f.jpg",
+      "title": {
+        "en": "Rooms Frame 10",
+        "ar": "لقطة 10 من الغرف"
+      },
+      "description": {
+        "en": "Cinematic rooms shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الغرف مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno rooms scene 10",
+        "ar": "مشهد 10 من فئة الغرف بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "rooms-11",
+      "category": "rooms",
+      "src": "https://picsum.photos/seed/lux-inferno-rooms-11/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-rooms-11/900/620",
+      "title": {
+        "en": "Rooms Frame 11",
+        "ar": "لقطة 11 من الغرف"
+      },
+      "description": {
+        "en": "Cinematic rooms shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الغرف مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno rooms scene 11",
+        "ar": "مشهد 11 من فئة الغرف بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "rooms-12",
+      "category": "rooms",
+      "src": "https://picsum.photos/seed/lux-inferno-rooms-12/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-rooms-12/900/620",
+      "title": {
+        "en": "Rooms Frame 12",
+        "ar": "لقطة 12 من الغرف"
+      },
+      "description": {
+        "en": "Cinematic rooms shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الغرف مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno rooms scene 12",
+        "ar": "مشهد 12 من فئة الغرف بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "suites-01",
+      "category": "suites",
+      "src": "https://picsum.photos/seed/lux-inferno-suites-01/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-suites-01/900/620",
+      "title": {
+        "en": "Suites Frame 01",
+        "ar": "لقطة 01 من الأجنحة"
+      },
+      "description": {
+        "en": "Cinematic suites shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الأجنحة مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno suites scene 01",
+        "ar": "مشهد 01 من فئة الأجنحة بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "suites-02",
+      "category": "suites",
+      "src": "/uploads/1773140353575-8018b743-da23-4389-9123-8fbf7bed6729.jpg",
+      "thumb": "/uploads/1773140353575-8018b743-da23-4389-9123-8fbf7bed6729.jpg",
+      "title": {
+        "en": "Suites Frame 02",
+        "ar": "لقطة 02 من الأجنحة"
+      },
+      "description": {
+        "en": "Cinematic suites shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الأجنحة مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno suites scene 02",
+        "ar": "مشهد 02 من فئة الأجنحة بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "suites-03",
+      "category": "suites",
+      "src": "https://picsum.photos/seed/lux-inferno-suites-03/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-suites-03/900/620",
+      "title": {
+        "en": "Suites Frame 03",
+        "ar": "لقطة 03 من الأجنحة"
+      },
+      "description": {
+        "en": "Cinematic suites shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الأجنحة مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno suites scene 03",
+        "ar": "مشهد 03 من فئة الأجنحة بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "suites-04",
+      "category": "suites",
+      "src": "https://picsum.photos/seed/lux-inferno-suites-04/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-suites-04/900/620",
+      "title": {
+        "en": "Suites Frame 04",
+        "ar": "لقطة 04 من الأجنحة"
+      },
+      "description": {
+        "en": "Cinematic suites shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الأجنحة مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno suites scene 04",
+        "ar": "مشهد 04 من فئة الأجنحة بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "suites-05",
+      "category": "suites",
+      "src": "https://picsum.photos/seed/lux-inferno-suites-05/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-suites-05/900/620",
+      "title": {
+        "en": "Suites Frame 05",
+        "ar": "لقطة 05 من الأجنحة"
+      },
+      "description": {
+        "en": "Cinematic suites shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الأجنحة مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno suites scene 05",
+        "ar": "مشهد 05 من فئة الأجنحة بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "suites-06",
+      "category": "suites",
+      "src": "https://picsum.photos/seed/lux-inferno-suites-06/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-suites-06/900/620",
+      "title": {
+        "en": "Suites Frame 06",
+        "ar": "لقطة 06 من الأجنحة"
+      },
+      "description": {
+        "en": "Cinematic suites shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الأجنحة مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno suites scene 06",
+        "ar": "مشهد 06 من فئة الأجنحة بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "suites-07",
+      "category": "suites",
+      "src": "https://picsum.photos/seed/lux-inferno-suites-07/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-suites-07/900/620",
+      "title": {
+        "en": "Suites Frame 07",
+        "ar": "لقطة 07 من الأجنحة"
+      },
+      "description": {
+        "en": "Cinematic suites shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الأجنحة مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno suites scene 07",
+        "ar": "مشهد 07 من فئة الأجنحة بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "suites-08",
+      "category": "suites",
+      "src": "https://picsum.photos/seed/lux-inferno-suites-08/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-suites-08/900/620",
+      "title": {
+        "en": "Suites Frame 08",
+        "ar": "لقطة 08 من الأجنحة"
+      },
+      "description": {
+        "en": "Cinematic suites shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الأجنحة مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno suites scene 08",
+        "ar": "مشهد 08 من فئة الأجنحة بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "suites-09",
+      "category": "suites",
+      "src": "https://picsum.photos/seed/lux-inferno-suites-09/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-suites-09/900/620",
+      "title": {
+        "en": "Suites Frame 09",
+        "ar": "لقطة 09 من الأجنحة"
+      },
+      "description": {
+        "en": "Cinematic suites shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الأجنحة مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno suites scene 09",
+        "ar": "مشهد 09 من فئة الأجنحة بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "suites-10",
+      "category": "suites",
+      "src": "https://picsum.photos/seed/lux-inferno-suites-10/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-suites-10/900/620",
+      "title": {
+        "en": "Suites Frame 10",
+        "ar": "لقطة 10 من الأجنحة"
+      },
+      "description": {
+        "en": "Cinematic suites shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الأجنحة مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno suites scene 10",
+        "ar": "مشهد 10 من فئة الأجنحة بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "suites-11",
+      "category": "suites",
+      "src": "https://picsum.photos/seed/lux-inferno-suites-11/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-suites-11/900/620",
+      "title": {
+        "en": "Suites Frame 11",
+        "ar": "لقطة 11 من الأجنحة"
+      },
+      "description": {
+        "en": "Cinematic suites shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الأجنحة مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno suites scene 11",
+        "ar": "مشهد 11 من فئة الأجنحة بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "suites-12",
+      "category": "suites",
+      "src": "https://picsum.photos/seed/lux-inferno-suites-12/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-suites-12/900/620",
+      "title": {
+        "en": "Suites Frame 12",
+        "ar": "لقطة 12 من الأجنحة"
+      },
+      "description": {
+        "en": "Cinematic suites shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الأجنحة مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno suites scene 12",
+        "ar": "مشهد 12 من فئة الأجنحة بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "dining-01",
+      "category": "dining",
+      "src": "https://picsum.photos/seed/lux-inferno-dining-01/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-dining-01/900/620",
+      "title": {
+        "en": "Dining Frame 01",
+        "ar": "لقطة 01 من المطاعم"
+      },
+      "description": {
+        "en": "Cinematic dining shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة المطاعم مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno dining scene 01",
+        "ar": "مشهد 01 من فئة المطاعم بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "dining-02",
+      "category": "dining",
+      "src": "https://picsum.photos/seed/lux-inferno-dining-02/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-dining-02/900/620",
+      "title": {
+        "en": "Dining Frame 02",
+        "ar": "لقطة 02 من المطاعم"
+      },
+      "description": {
+        "en": "Cinematic dining shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة المطاعم مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno dining scene 02",
+        "ar": "مشهد 02 من فئة المطاعم بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "dining-03",
+      "category": "dining",
+      "src": "https://picsum.photos/seed/lux-inferno-dining-03/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-dining-03/900/620",
+      "title": {
+        "en": "Dining Frame 03",
+        "ar": "لقطة 03 من المطاعم"
+      },
+      "description": {
+        "en": "Cinematic dining shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة المطاعم مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno dining scene 03",
+        "ar": "مشهد 03 من فئة المطاعم بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "dining-04",
+      "category": "dining",
+      "src": "https://picsum.photos/seed/lux-inferno-dining-04/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-dining-04/900/620",
+      "title": {
+        "en": "Dining Frame 04",
+        "ar": "لقطة 04 من المطاعم"
+      },
+      "description": {
+        "en": "Cinematic dining shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة المطاعم مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno dining scene 04",
+        "ar": "مشهد 04 من فئة المطاعم بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "dining-05",
+      "category": "dining",
+      "src": "https://picsum.photos/seed/lux-inferno-dining-05/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-dining-05/900/620",
+      "title": {
+        "en": "Dining Frame 05",
+        "ar": "لقطة 05 من المطاعم"
+      },
+      "description": {
+        "en": "Cinematic dining shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة المطاعم مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno dining scene 05",
+        "ar": "مشهد 05 من فئة المطاعم بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "dining-06",
+      "category": "dining",
+      "src": "https://picsum.photos/seed/lux-inferno-dining-06/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-dining-06/900/620",
+      "title": {
+        "en": "Dining Frame 06",
+        "ar": "لقطة 06 من المطاعم"
+      },
+      "description": {
+        "en": "Cinematic dining shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة المطاعم مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno dining scene 06",
+        "ar": "مشهد 06 من فئة المطاعم بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "dining-07",
+      "category": "dining",
+      "src": "https://picsum.photos/seed/lux-inferno-dining-07/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-dining-07/900/620",
+      "title": {
+        "en": "Dining Frame 07",
+        "ar": "لقطة 07 من المطاعم"
+      },
+      "description": {
+        "en": "Cinematic dining shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة المطاعم مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno dining scene 07",
+        "ar": "مشهد 07 من فئة المطاعم بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "dining-08",
+      "category": "dining",
+      "src": "https://picsum.photos/seed/lux-inferno-dining-08/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-dining-08/900/620",
+      "title": {
+        "en": "Dining Frame 08",
+        "ar": "لقطة 08 من المطاعم"
+      },
+      "description": {
+        "en": "Cinematic dining shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة المطاعم مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno dining scene 08",
+        "ar": "مشهد 08 من فئة المطاعم بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "dining-09",
+      "category": "dining",
+      "src": "https://picsum.photos/seed/lux-inferno-dining-09/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-dining-09/900/620",
+      "title": {
+        "en": "Dining Frame 09",
+        "ar": "لقطة 09 من المطاعم"
+      },
+      "description": {
+        "en": "Cinematic dining shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة المطاعم مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno dining scene 09",
+        "ar": "مشهد 09 من فئة المطاعم بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "dining-10",
+      "category": "dining",
+      "src": "https://picsum.photos/seed/lux-inferno-dining-10/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-dining-10/900/620",
+      "title": {
+        "en": "Dining Frame 10",
+        "ar": "لقطة 10 من المطاعم"
+      },
+      "description": {
+        "en": "Cinematic dining shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة المطاعم مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno dining scene 10",
+        "ar": "مشهد 10 من فئة المطاعم بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "dining-11",
+      "category": "dining",
+      "src": "https://picsum.photos/seed/lux-inferno-dining-11/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-dining-11/900/620",
+      "title": {
+        "en": "Dining Frame 11",
+        "ar": "لقطة 11 من المطاعم"
+      },
+      "description": {
+        "en": "Cinematic dining shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة المطاعم مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno dining scene 11",
+        "ar": "مشهد 11 من فئة المطاعم بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "dining-12",
+      "category": "dining",
+      "src": "https://picsum.photos/seed/lux-inferno-dining-12/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-dining-12/900/620",
+      "title": {
+        "en": "Dining Frame 12",
+        "ar": "لقطة 12 من المطاعم"
+      },
+      "description": {
+        "en": "Cinematic dining shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة المطاعم مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno dining scene 12",
+        "ar": "مشهد 12 من فئة المطاعم بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "exterior-01",
+      "category": "exterior",
+      "src": "https://picsum.photos/seed/lux-inferno-exterior-01/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-exterior-01/900/620",
+      "title": {
+        "en": "Exterior Frame 01",
+        "ar": "لقطة 01 من الواجهة الخارجية"
+      },
+      "description": {
+        "en": "Cinematic exterior shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الواجهة الخارجية مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno exterior scene 01",
+        "ar": "مشهد 01 من فئة الواجهة الخارجية بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "exterior-02",
+      "category": "exterior",
+      "src": "https://picsum.photos/seed/lux-inferno-exterior-02/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-exterior-02/900/620",
+      "title": {
+        "en": "Exterior Frame 02",
+        "ar": "لقطة 02 من الواجهة الخارجية"
+      },
+      "description": {
+        "en": "Cinematic exterior shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الواجهة الخارجية مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno exterior scene 02",
+        "ar": "مشهد 02 من فئة الواجهة الخارجية بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "exterior-03",
+      "category": "exterior",
+      "src": "https://picsum.photos/seed/lux-inferno-exterior-03/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-exterior-03/900/620",
+      "title": {
+        "en": "Exterior Frame 03",
+        "ar": "لقطة 03 من الواجهة الخارجية"
+      },
+      "description": {
+        "en": "Cinematic exterior shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الواجهة الخارجية مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno exterior scene 03",
+        "ar": "مشهد 03 من فئة الواجهة الخارجية بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "exterior-04",
+      "category": "exterior",
+      "src": "https://picsum.photos/seed/lux-inferno-exterior-04/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-exterior-04/900/620",
+      "title": {
+        "en": "Exterior Frame 04",
+        "ar": "لقطة 04 من الواجهة الخارجية"
+      },
+      "description": {
+        "en": "Cinematic exterior shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الواجهة الخارجية مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno exterior scene 04",
+        "ar": "مشهد 04 من فئة الواجهة الخارجية بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "exterior-05",
+      "category": "exterior",
+      "src": "https://picsum.photos/seed/lux-inferno-exterior-05/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-exterior-05/900/620",
+      "title": {
+        "en": "Exterior Frame 05",
+        "ar": "لقطة 05 من الواجهة الخارجية"
+      },
+      "description": {
+        "en": "Cinematic exterior shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الواجهة الخارجية مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno exterior scene 05",
+        "ar": "مشهد 05 من فئة الواجهة الخارجية بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "exterior-06",
+      "category": "exterior",
+      "src": "https://picsum.photos/seed/lux-inferno-exterior-06/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-exterior-06/900/620",
+      "title": {
+        "en": "Exterior Frame 06",
+        "ar": "لقطة 06 من الواجهة الخارجية"
+      },
+      "description": {
+        "en": "Cinematic exterior shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الواجهة الخارجية مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno exterior scene 06",
+        "ar": "مشهد 06 من فئة الواجهة الخارجية بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "exterior-07",
+      "category": "exterior",
+      "src": "https://picsum.photos/seed/lux-inferno-exterior-07/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-exterior-07/900/620",
+      "title": {
+        "en": "Exterior Frame 07",
+        "ar": "لقطة 07 من الواجهة الخارجية"
+      },
+      "description": {
+        "en": "Cinematic exterior shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الواجهة الخارجية مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno exterior scene 07",
+        "ar": "مشهد 07 من فئة الواجهة الخارجية بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "exterior-08",
+      "category": "exterior",
+      "src": "https://picsum.photos/seed/lux-inferno-exterior-08/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-exterior-08/900/620",
+      "title": {
+        "en": "Exterior Frame 08",
+        "ar": "لقطة 08 من الواجهة الخارجية"
+      },
+      "description": {
+        "en": "Cinematic exterior shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الواجهة الخارجية مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno exterior scene 08",
+        "ar": "مشهد 08 من فئة الواجهة الخارجية بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "exterior-09",
+      "category": "exterior",
+      "src": "https://picsum.photos/seed/lux-inferno-exterior-09/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-exterior-09/900/620",
+      "title": {
+        "en": "Exterior Frame 09",
+        "ar": "لقطة 09 من الواجهة الخارجية"
+      },
+      "description": {
+        "en": "Cinematic exterior shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الواجهة الخارجية مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno exterior scene 09",
+        "ar": "مشهد 09 من فئة الواجهة الخارجية بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "exterior-10",
+      "category": "exterior",
+      "src": "https://picsum.photos/seed/lux-inferno-exterior-10/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-exterior-10/900/620",
+      "title": {
+        "en": "Exterior Frame 10",
+        "ar": "لقطة 10 من الواجهة الخارجية"
+      },
+      "description": {
+        "en": "Cinematic exterior shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الواجهة الخارجية مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno exterior scene 10",
+        "ar": "مشهد 10 من فئة الواجهة الخارجية بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "exterior-11",
+      "category": "exterior",
+      "src": "https://picsum.photos/seed/lux-inferno-exterior-11/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-exterior-11/900/620",
+      "title": {
+        "en": "Exterior Frame 11",
+        "ar": "لقطة 11 من الواجهة الخارجية"
+      },
+      "description": {
+        "en": "Cinematic exterior shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الواجهة الخارجية مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno exterior scene 11",
+        "ar": "مشهد 11 من فئة الواجهة الخارجية بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "exterior-12",
+      "category": "exterior",
+      "src": "https://picsum.photos/seed/lux-inferno-exterior-12/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-exterior-12/900/620",
+      "title": {
+        "en": "Exterior Frame 12",
+        "ar": "لقطة 12 من الواجهة الخارجية"
+      },
+      "description": {
+        "en": "Cinematic exterior shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الواجهة الخارجية مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno exterior scene 12",
+        "ar": "مشهد 12 من فئة الواجهة الخارجية بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "amenities-01",
+      "category": "amenities",
+      "src": "https://picsum.photos/seed/lux-inferno-amenities-01/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-amenities-01/900/620",
+      "title": {
+        "en": "Amenities Frame 01",
+        "ar": "لقطة 01 من الخدمات"
+      },
+      "description": {
+        "en": "Cinematic amenities shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الخدمات مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno amenities scene 01",
+        "ar": "مشهد 01 من فئة الخدمات بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "amenities-02",
+      "category": "amenities",
+      "src": "https://picsum.photos/seed/lux-inferno-amenities-02/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-amenities-02/900/620",
+      "title": {
+        "en": "Amenities Frame 02",
+        "ar": "لقطة 02 من الخدمات"
+      },
+      "description": {
+        "en": "Cinematic amenities shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الخدمات مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno amenities scene 02",
+        "ar": "مشهد 02 من فئة الخدمات بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "amenities-03",
+      "category": "amenities",
+      "src": "https://picsum.photos/seed/lux-inferno-amenities-03/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-amenities-03/900/620",
+      "title": {
+        "en": "Amenities Frame 03",
+        "ar": "لقطة 03 من الخدمات"
+      },
+      "description": {
+        "en": "Cinematic amenities shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الخدمات مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno amenities scene 03",
+        "ar": "مشهد 03 من فئة الخدمات بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "amenities-04",
+      "category": "amenities",
+      "src": "https://picsum.photos/seed/lux-inferno-amenities-04/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-amenities-04/900/620",
+      "title": {
+        "en": "Amenities Frame 04",
+        "ar": "لقطة 04 من الخدمات"
+      },
+      "description": {
+        "en": "Cinematic amenities shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الخدمات مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno amenities scene 04",
+        "ar": "مشهد 04 من فئة الخدمات بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "amenities-05",
+      "category": "amenities",
+      "src": "https://picsum.photos/seed/lux-inferno-amenities-05/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-amenities-05/900/620",
+      "title": {
+        "en": "Amenities Frame 05",
+        "ar": "لقطة 05 من الخدمات"
+      },
+      "description": {
+        "en": "Cinematic amenities shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الخدمات مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno amenities scene 05",
+        "ar": "مشهد 05 من فئة الخدمات بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "amenities-06",
+      "category": "amenities",
+      "src": "https://picsum.photos/seed/lux-inferno-amenities-06/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-amenities-06/900/620",
+      "title": {
+        "en": "Amenities Frame 06",
+        "ar": "لقطة 06 من الخدمات"
+      },
+      "description": {
+        "en": "Cinematic amenities shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الخدمات مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno amenities scene 06",
+        "ar": "مشهد 06 من فئة الخدمات بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "amenities-07",
+      "category": "amenities",
+      "src": "https://picsum.photos/seed/lux-inferno-amenities-07/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-amenities-07/900/620",
+      "title": {
+        "en": "Amenities Frame 07",
+        "ar": "لقطة 07 من الخدمات"
+      },
+      "description": {
+        "en": "Cinematic amenities shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الخدمات مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno amenities scene 07",
+        "ar": "مشهد 07 من فئة الخدمات بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "amenities-08",
+      "category": "amenities",
+      "src": "https://picsum.photos/seed/lux-inferno-amenities-08/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-amenities-08/900/620",
+      "title": {
+        "en": "Amenities Frame 08",
+        "ar": "لقطة 08 من الخدمات"
+      },
+      "description": {
+        "en": "Cinematic amenities shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الخدمات مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno amenities scene 08",
+        "ar": "مشهد 08 من فئة الخدمات بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "amenities-09",
+      "category": "amenities",
+      "src": "https://picsum.photos/seed/lux-inferno-amenities-09/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-amenities-09/900/620",
+      "title": {
+        "en": "Amenities Frame 09",
+        "ar": "لقطة 09 من الخدمات"
+      },
+      "description": {
+        "en": "Cinematic amenities shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الخدمات مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno amenities scene 09",
+        "ar": "مشهد 09 من فئة الخدمات بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "amenities-10",
+      "category": "amenities",
+      "src": "https://picsum.photos/seed/lux-inferno-amenities-10/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-amenities-10/900/620",
+      "title": {
+        "en": "Amenities Frame 10",
+        "ar": "لقطة 10 من الخدمات"
+      },
+      "description": {
+        "en": "Cinematic amenities shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الخدمات مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno amenities scene 10",
+        "ar": "مشهد 10 من فئة الخدمات بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "amenities-11",
+      "category": "amenities",
+      "src": "https://picsum.photos/seed/lux-inferno-amenities-11/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-amenities-11/900/620",
+      "title": {
+        "en": "Amenities Frame 11",
+        "ar": "لقطة 11 من الخدمات"
+      },
+      "description": {
+        "en": "Cinematic amenities shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الخدمات مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno amenities scene 11",
+        "ar": "مشهد 11 من فئة الخدمات بطابع إنفيرنو"
+      }
+    },
+    {
+      "id": "amenities-12",
+      "category": "amenities",
+      "src": "https://picsum.photos/seed/lux-inferno-amenities-12/2000/1300",
+      "thumb": "https://picsum.photos/seed/lux-inferno-amenities-12/900/620",
+      "title": {
+        "en": "Amenities Frame 12",
+        "ar": "لقطة 12 من الخدمات"
+      },
+      "description": {
+        "en": "Cinematic amenities shot with copper highlights and controlled contrast.",
+        "ar": "لقطة سينمائية لفئة الخدمات مع إبراز نحاسي وتباين مضبوط."
+      },
+      "alt": {
+        "en": "Luxurious inferno amenities scene 12",
+        "ar": "مشهد 12 من فئة الخدمات بطابع إنفيرنو"
+      }
+    }
+  ],
+  "bookingSettings": {
+    "checkInDefault": "2026-04-10",
+    "checkOutDefault": "2026-04-13",
+    "adultsDefault": 2,
+    "childrenDefault": 0,
+    "roomCountDefault": 1,
+    "maxAdults": 8,
+    "maxChildren": 8,
+    "maxRooms": 4,
+    "roomTypes": [
+      {
+        "id": "rt-1",
+        "label": {
+          "en": "Essential Room",
+          "ar": "غرفة أساسية"
+        }
+      },
+      {
+        "id": "rt-2",
+        "label": {
+          "en": "Deluxe Ember Room",
+          "ar": "غرفة ديلوكس جمرية"
+        }
+      },
+      {
+        "id": "rt-3",
+        "label": {
+          "en": "Panorama Room",
+          "ar": "غرفة بانوراما"
+        }
+      },
+      {
+        "id": "rt-4",
+        "label": {
+          "en": "Signature Suite",
+          "ar": "جناح سيجنتشر"
+        }
+      },
+      {
+        "id": "rt-5",
+        "label": {
+          "en": "Glass Penthouse",
+          "ar": "بنتهاوس زجاجي"
+        }
+      }
+    ]
+  },
+  "siteBranding": {
+    "logoMarkText": "GT",
+    "logoImageUrl": "",
+    "logoAlt": {
+      "en": "Golden Tulip Shakereen logo",
+      "ar": "شعار فندق جولدن توليب الشاكرين"
+    },
+    "footerCopyright": {
+      "en": "© 2026 Golden Tulip Shakereen Hotel. All rights reserved.",
+      "ar": "© 2026 فندق جولدين توليب الشاكرين. جميع الحقوق محفوظة."
+    }
+  },
+  "forms": {
+    "adminLogin": {
+      "kicker": {
+        "en": "Secure Access",
+        "ar": "دخول آمن"
+      },
+      "title": {
+        "en": "Admin Login",
+        "ar": "تسجيل دخول الأدمن"
+      },
+      "description": {
+        "en": "Sign in to open the dashboard and manage the website safely.",
+        "ar": "سجل الدخول لفتح لوحة التحكم وإدارة الموقع بشكل آمن."
+      },
+      "usernameLabel": {
+        "en": "Username",
+        "ar": "اسم المستخدم"
+      },
+      "usernamePlaceholder": {
+        "en": "Enter admin username",
+        "ar": "اكتب اسم المستخدم"
+      },
+      "passwordLabel": {
+        "en": "Password",
+        "ar": "كلمة المرور"
+      },
+      "passwordPlaceholder": {
+        "en": "Enter password",
+        "ar": "اكتب كلمة المرور"
+      },
+      "submitText": {
+        "en": "Sign In",
+        "ar": "دخول"
+      },
+      "submittingText": {
+        "en": "Signing In...",
+        "ar": "جارٍ تسجيل الدخول..."
+      },
+      "cancelText": {
+        "en": "Close",
+        "ar": "إغلاق"
+      }
+    },
+    "contact": {
+      "infoTitle": {
+        "en": "Contact Channels",
+        "ar": "قنوات التواصل"
+      },
+      "formTitle": {
+        "en": "Send a Message",
+        "ar": "أرسل رسالة"
+      },
+      "phonesLabel": {
+        "en": "Phones",
+        "ar": "الهواتف"
+      },
+      "emailsLabel": {
+        "en": "Emails",
+        "ar": "البريد الإلكتروني"
+      },
+      "nameLabel": {
+        "en": "Full Name",
+        "ar": "الاسم الكامل"
+      },
+      "namePlaceholder": {
+        "en": "Your name",
+        "ar": "اسمك"
+      },
+      "emailLabel": {
+        "en": "Email",
+        "ar": "البريد الإلكتروني"
+      },
+      "emailPlaceholder": {
+        "en": "name@email.com",
+        "ar": "name@email.com"
+      },
+      "phoneLabel": {
+        "en": "Phone",
+        "ar": "الهاتف"
+      },
+      "phonePlaceholder": {
+        "en": "Optional",
+        "ar": "اختياري"
+      },
+      "topicLabel": {
+        "en": "Topic",
+        "ar": "الموضوع"
+      },
+      "topicPlaceholder": {
+        "en": "Reservation / Event / Media",
+        "ar": "حجز / فعالية / إعلام"
+      },
+      "messageLabel": {
+        "en": "Message",
+        "ar": "الرسالة"
+      },
+      "messagePlaceholder": {
+        "en": "Tell us what you need...",
+        "ar": "أخبرنا بما تحتاج..."
+      },
+      "submitText": {
+        "en": "Send Request",
+        "ar": "إرسال الطلب"
+      },
+      "submittingText": {
+        "en": "Sending...",
+        "ar": "جارٍ الإرسال..."
+      },
+      "successMessage": {
+        "en": "Your message has been sent successfully.",
+        "ar": "تم إرسال رسالتك بنجاح."
+      },
+      "errorMessage": {
+        "en": "Could not send your message. Please try again.",
+        "ar": "تعذر إرسال الرسالة. حاول مرة أخرى."
+      },
+      "locationButtonText": {
+        "en": "Open Location",
+        "ar": "فتح الموقع"
+      }
+    },
+    "booking": {
+      "title": {
+        "en": "Build Your Stay",
+        "ar": "ابنِ إقامتك"
+      },
+      "nameLabel": {
+        "en": "Full Name",
+        "ar": "الاسم الكامل"
+      },
+      "emailLabel": {
+        "en": "Email",
+        "ar": "البريد الإلكتروني"
+      },
+      "phoneLabel": {
+        "en": "Phone",
+        "ar": "الهاتف"
+      },
+      "checkInLabel": {
+        "en": "Check-in",
+        "ar": "تاريخ الوصول"
+      },
+      "checkOutLabel": {
+        "en": "Check-out",
+        "ar": "تاريخ المغادرة"
+      },
+      "adultsLabel": {
+        "en": "Adults",
+        "ar": "البالغون"
+      },
+      "childrenLabel": {
+        "en": "Children",
+        "ar": "الأطفال"
+      },
+      "roomsLabel": {
+        "en": "Rooms",
+        "ar": "عدد الغرف"
+      },
+      "roomTypeLabel": {
+        "en": "Room Type",
+        "ar": "نوع الغرفة"
+      },
+      "notesLabel": {
+        "en": "Special Notes",
+        "ar": "ملاحظات خاصة"
+      },
+      "notesPlaceholder": {
+        "en": "Add arrival preferences, bed setup, or package notes...",
+        "ar": "أضف تفضيلات الوصول أو تجهيز السرير أو ملاحظات الباقة..."
+      },
+      "selectedOfferLabel": {
+        "en": "Selected Offer",
+        "ar": "العرض المختار"
+      },
+      "selectedOfferEmpty": {
+        "en": "No package selected",
+        "ar": "لا يوجد عرض محدد"
+      },
+      "submitText": {
+        "en": "Confirm Booking Request",
+        "ar": "تأكيد طلب الحجز"
+      },
+      "submittingText": {
+        "en": "Sending...",
+        "ar": "جارٍ الإرسال..."
+      },
+      "successMessage": {
+        "en": "Your booking request has been sent successfully.",
+        "ar": "تم إرسال طلب الحجز بنجاح."
+      },
+      "errorMessage": {
+        "en": "Could not send booking request. Please try again.",
+        "ar": "تعذر إرسال طلب الحجز. حاول مرة أخرى."
+      },
+      "rateReferenceTitle": {
+        "en": "Quick Rate Reference",
+        "ar": "مرجع أسعار سريع"
+      }
+    },
+    "guestReview": {
+      "title": {
+        "en": "Share Your Real Experience",
+        "ar": "شاركنا تجربتك الحقيقية"
+      },
+      "description": {
+        "en": "Stayed with us recently? Write your comment and star rating to help other guests.",
+        "ar": "هل أقمت لدينا مؤخرًا؟ اكتب تعليقك وتقييمك بالنجوم لمساعدة الضيوف الآخرين."
+      },
+      "nameLabel": {
+        "en": "Your Name",
+        "ar": "اسمك"
+      },
+      "namePlaceholder": {
+        "en": "Enter your full name",
+        "ar": "اكتب اسمك الكامل"
+      },
+      "reviewLabel": {
+        "en": "Your Review",
+        "ar": "تقييمك"
+      },
+      "reviewPlaceholder": {
+        "en": "Tell us about your stay...",
+        "ar": "احكِ لنا عن تجربتك في الفندق..."
+      },
+      "ratingLabel": {
+        "en": "Star Rating",
+        "ar": "عدد النجوم"
+      },
+      "submitText": {
+        "en": "Submit Review",
+        "ar": "إرسال التقييم"
+      },
+      "submittingText": {
+        "en": "Submitting...",
+        "ar": "جارٍ الإرسال..."
+      },
+      "successMessage": {
+        "en": "Thank you. Your review was added successfully.",
+        "ar": "شكرًا لك. تمت إضافة تقييمك بنجاح."
+      },
+      "errorMessage": {
+        "en": "Could not submit your review. Please try again.",
+        "ar": "تعذر إرسال تقييمك. حاول مرة أخرى."
+      }
+    }
+  },
+  "customSections": {
+    "homeNarrative": {
+      "title": {
+        "en": "A Longer Brand Narrative",
+        "ar": "سرد موسع للعلامة"
+      },
+      "paragraphs": [
+        {
+          "en": "Golden Tulip Shakereen Hotel was conceived as a hospitality sequence rather than a static building. Movement through the property is choreographed through light transitions, reflective materials, and intentionally paced acoustics.",
+          "ar": "تم تصميم فندق جولدين توليب الشاكرين كتسلسل ضيافة وليس مبنى ثابتًا. الحركة داخل المكان مصاغة عبر انتقالات ضوئية ومواد عاكسة وإيقاع صوتي مدروس."
+        },
+        {
+          "en": "Guests move between calm thermal notes and vibrant social zones without abrupt contrast. This controlled rhythm creates comfort for families, efficiency for executives, and dramatic atmosphere for special occasions.",
+          "ar": "ينتقل الضيوف بين درجات هادئة ومناطق اجتماعية نابضة دون تباين حاد. هذا الإيقاع المنضبط يخلق راحة للعائلات وكفاءة للتنفيذيين وأجواء درامية للمناسبات الخاصة."
+        },
+        {
+          "en": "Our operating model combines real-time concierge support, adaptive room controls, and curated dining journeys to maintain consistency across every touchpoint.",
+          "ar": "نموذج التشغيل لدينا يجمع بين دعم كونسيرج لحظي وتحكم متكيف بالغرف ومسارات طعام منتقاة للحفاظ على الثبات عبر جميع نقاط التفاعل."
+        }
+      ]
+    },
+    "diningConcepts": {
+      "concepts": [
+        {
+          "id": "d-1",
+          "title": {
+            "en": "Fireline Grill Atelier",
+            "ar": "فايرلاين جريل أتيليه"
+          },
+          "hours": {
+            "en": "12:00 PM - 1:00 AM",
+            "ar": "12:00 ظهرًا - 1:00 صباحًا"
+          },
+          "text": {
+            "en": "Open-flame kitchen focused on dry-aged meats, smoke-balanced seafood, and seasonal ember vegetables.",
+            "ar": "مطبخ لهب مفتوح يركز على اللحوم المعتقة والمأكولات البحرية متوازنة الدخان وخضروات الجمر الموسمية."
+          }
+        },
+        {
+          "id": "d-2",
+          "title": {
+            "en": "Copper Lounge",
+            "ar": "كوبر لاونج"
+          },
+          "hours": {
+            "en": "4:00 PM - 2:00 AM",
+            "ar": "4:00 مساءً - 2:00 صباحًا"
+          },
+          "text": {
+            "en": "Skyline lounge serving artisan tapas, zero-proof signatures, and evening jazz performance sets.",
+            "ar": "لاونج بإطلالة مرتفعة يقدم تاباس حرفية ومشروبات مميزة بدون كحول وعروض جاز مسائية."
+          }
+        },
+        {
+          "id": "d-3",
+          "title": {
+            "en": "Chef Glass Table",
+            "ar": "طاولة الشيف الزجاجية"
+          },
+          "hours": {
+            "en": "7:30 PM - 11:00 PM",
+            "ar": "7:30 مساءً - 11:00 مساءً"
+          },
+          "text": {
+            "en": "Limited-seat tasting ritual with 7-course narrative menus and direct chef interaction.",
+            "ar": "تجربة تذوق محدودة المقاعد بقائمة قصصية من 7 أطباق مع تفاعل مباشر مع الشيف."
+          }
+        }
+      ],
+      "signatureTitle": {
+        "en": "Signature Selections",
+        "ar": "اختيارات مميزة"
+      },
+      "signatures": [
+        {
+          "id": "s-1",
+          "name": {
+            "en": "Coal-Roasted Ribeye",
+            "ar": "ريب آي مشوي على الفحم"
+          },
+          "note": {
+            "en": "Slow-charred, smoked butter, black garlic glaze.",
+            "ar": "تحمير بطيء، زبدة مدخنة، صوص ثوم أسود."
+          }
+        },
+        {
+          "id": "s-2",
+          "name": {
+            "en": "Cedar Fire Salmon",
+            "ar": "سلمون لهب الأرز"
+          },
+          "note": {
+            "en": "Cedar plank technique with citrus ember reduction.",
+            "ar": "تقنية لوح الأرز مع صوص حمضيات مختزل على الجمر."
+          }
+        },
+        {
+          "id": "s-3",
+          "name": {
+            "en": "Copper Date Millefeuille",
+            "ar": "ميل فوي بالتمر النحاسي"
+          },
+          "note": {
+            "en": "Layered pastry, date caramel, saffron cream.",
+            "ar": "طبقات عجين هشة مع كراميل التمر وكريمة الزعفران."
+          }
+        }
+      ]
+    },
+    "experienceJourneys": {
+      "journeys": [
+        {
+          "id": "xp-journey-1",
+          "title": {
+            "en": "Urban Ember Route",
+            "ar": "مسار الجمر الحضري"
+          },
+          "duration": {
+            "en": "6 Hours",
+            "ar": "6 ساعات"
+          },
+          "summary": {
+            "en": "Private transfer to design district, curated gallery stop, and sunset rooftop lounge access.",
+            "ar": "نقل خاص إلى حي التصميم، محطة معرض منتقاة، ووصول لصالة سطحية عند الغروب."
+          }
+        },
+        {
+          "id": "xp-journey-2",
+          "title": {
+            "en": "Wellness Reset Sequence",
+            "ar": "مسار إعادة التوازن"
+          },
+          "duration": {
+            "en": "Full Day",
+            "ar": "يوم كامل"
+          },
+          "summary": {
+            "en": "Breathwork session, thermal recovery, nutrition consultation, and guided low-light meditation.",
+            "ar": "جلسة تنفس، تعافٍ حراري، استشارة تغذية، وتأمل موجه بإضاءة منخفضة."
+          }
+        },
+        {
+          "id": "xp-journey-3",
+          "title": {
+            "en": "Executive Precision Day",
+            "ar": "يوم تنفيذي دقيق"
+          },
+          "duration": {
+            "en": "8 Hours",
+            "ar": "8 ساعات"
+          },
+          "summary": {
+            "en": "Meeting pods, chauffeured mobility, concierge scheduling, and late-night chef table booking.",
+            "ar": "مساحات اجتماعات، تنقل بسائق خاص، جدولة كونسيرج، وحجز طاولة شيف ليلية."
+          }
+        }
+      ],
+      "timelineTitle": {
+        "en": "Experience Delivery Timeline",
+        "ar": "الخط الزمني لتنفيذ التجربة"
+      },
+      "milestones": [
+        {
+          "id": "m1",
+          "title": {
+            "en": "Pre-Arrival Planning",
+            "ar": "تخطيط قبل الوصول"
+          },
+          "text": {
+            "en": "Concierge confirms preferences, mobility options, and private priorities 24 hours before arrival.",
+            "ar": "الكونسيرج يؤكد التفضيلات وخيارات التنقل والأولويات الخاصة قبل الوصول بـ24 ساعة."
+          }
+        },
+        {
+          "id": "m2",
+          "title": {
+            "en": "Live Execution Window",
+            "ar": "نافذة التنفيذ المباشر"
+          },
+          "text": {
+            "en": "Real-time coordination between transport, hosts, and venue teams to keep the day frictionless.",
+            "ar": "تنسيق لحظي بين النقل والمضيفين وفرق المواقع للحفاظ على يوم خالٍ من أي احتكاك."
+          }
+        },
+        {
+          "id": "m3",
+          "title": {
+            "en": "Post-Experience Follow-up",
+            "ar": "متابعة بعد التجربة"
+          },
+          "text": {
+            "en": "Guests receive a recap, optional media package, and a personalized recommendation for next stay.",
+            "ar": "يتلقى الضيف ملخصًا للتجربة وحزمة وسائط اختيارية وتوصية شخصية للإقامة القادمة."
+          }
+        }
+      ]
+    },
+    "gallerySlider": {
+      "title": {
+        "en": "Cinematic Slider",
+        "ar": "سلايدر سينمائي"
+      },
+      "description": {
+        "en": "A curated visual sequence from the gallery before you browse the full archive.",
+        "ar": "تسلسل بصري منتقى من المعرض قبل تصفح الأرشيف الكامل."
+      }
+    }
+  }
+}

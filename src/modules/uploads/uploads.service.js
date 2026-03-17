@@ -24,9 +24,43 @@ const MIME_TO_EXTENSION = {
 
 const IS_S3_DRIVER = env.uploadsStorageDriver === 's3';
 let s3ClientPromise = null;
+const BOOTSTRAP_UPLOADS_DIR = path.resolve(process.cwd(), 'bootstrap', 'uploads');
 
 const ensureUploadsDir = async () => {
   await fs.mkdir(env.uploadsDir, { recursive: true });
+};
+
+const copyMissingFiles = async (sourceDir, targetDir) => {
+  let entries = [];
+  try {
+    entries = await fs.readdir(sourceDir, { withFileTypes: true });
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      return;
+    }
+    throw error;
+  }
+
+  await fs.mkdir(targetDir, { recursive: true });
+
+  for (const entry of entries) {
+    const sourcePath = path.join(sourceDir, entry.name);
+    const targetPath = path.join(targetDir, entry.name);
+
+    if (entry.isDirectory()) {
+      await copyMissingFiles(sourcePath, targetPath);
+      continue;
+    }
+
+    try {
+      await fs.access(targetPath);
+    } catch (error) {
+      if (error.code !== 'ENOENT') {
+        throw error;
+      }
+      await fs.copyFile(sourcePath, targetPath);
+    }
+  }
 };
 
 const buildFileName = (mimeType) => {
@@ -124,6 +158,11 @@ const saveImageToS3 = async (file, mimeType, fileName) => {
 };
 
 export const uploadsService = {
+  async bootstrap() {
+    await ensureUploadsDir();
+    await copyMissingFiles(BOOTSTRAP_UPLOADS_DIR, env.uploadsDir);
+  },
+
   getStorageDriver() {
     return IS_S3_DRIVER ? 's3' : 'local';
   },

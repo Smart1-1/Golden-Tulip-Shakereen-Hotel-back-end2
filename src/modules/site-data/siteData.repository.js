@@ -7,6 +7,7 @@ import { readJsonFile, writeJsonFile } from '../../lib/jsonFileStore.js';
 import { queryPostgres } from '../../lib/postgres.js';
 
 const SITE_DATA_FILE = path.join(env.dataDir, 'site-data.json');
+const BOOTSTRAP_SITE_DATA_FILE = path.resolve(process.cwd(), 'bootstrap', 'site-data.json');
 const IS_POSTGRES_DRIVER = env.dataStorageDriver === 'postgres';
 const SITE_DATA_TABLE = 'app_site_data';
 
@@ -30,11 +31,30 @@ const buildDefaultPayload = () => {
   return payload;
 };
 
+const loadBootstrapPayload = async () => {
+  const payload = await readJsonFile(BOOTSTRAP_SITE_DATA_FILE);
+  if (!payload || typeof payload !== 'object') {
+    return null;
+  }
+
+  const normalized = normalizeSiteData(payload);
+  normalized.updatedAt = payload.updatedAt || new Date().toISOString();
+  return normalized;
+};
+
+const buildInitialPayload = async () => {
+  const bootstrapPayload = await loadBootstrapPayload();
+  if (bootstrapPayload) {
+    return bootstrapPayload;
+  }
+  return buildDefaultPayload();
+};
+
 const ensureExistingPayload = async () => {
   const existing = await readJsonFile(SITE_DATA_FILE);
 
   if (!existing || typeof existing !== 'object') {
-    const fallback = buildDefaultPayload();
+    const fallback = await buildInitialPayload();
     await writeJsonFile(SITE_DATA_FILE, fallback);
     return fallback;
   }
@@ -62,7 +82,7 @@ const ensurePostgresPayload = async () => {
       const existingResult = await queryPostgres(`SELECT payload FROM ${SITE_DATA_TABLE} WHERE id = 1 LIMIT 1;`);
       const existingPayload = normalizePostgresPayload(existingResult.rows?.[0]?.payload);
       if (!existingPayload || typeof existingPayload !== 'object') {
-        const fallback = buildDefaultPayload();
+        const fallback = await buildInitialPayload();
         await queryPostgres(
           `
             INSERT INTO ${SITE_DATA_TABLE} (id, payload, updated_at)
@@ -159,6 +179,7 @@ export const siteDataRepository = {
     const now = new Date().toISOString();
     const testimonial = {
       id: `tm-public-${crypto.randomUUID()}`,
+      hotelId: payload.hotelId || null,
       name: {
         en: payload.fullName,
         ar: payload.fullName
@@ -175,7 +196,17 @@ export const siteDataRepository = {
       submittedAt: now
     };
 
-    current.testimonials = [testimonial, ...(Array.isArray(current.testimonials) ? current.testimonials : [])];
+    if (payload.hotelId) {
+      const hotels = Array.isArray(current.hotels) ? current.hotels : [];
+      const hotel = hotels.find((entry) => entry.id === payload.hotelId);
+      if (hotel) {
+        hotel.reviews = [testimonial, ...(Array.isArray(hotel.reviews) ? hotel.reviews : [])];
+      } else {
+        current.testimonials = [testimonial, ...(Array.isArray(current.testimonials) ? current.testimonials : [])];
+      }
+    } else {
+      current.testimonials = [testimonial, ...(Array.isArray(current.testimonials) ? current.testimonials : [])];
+    }
     current.updatedAt = now;
 
     if (IS_POSTGRES_DRIVER) {
@@ -187,7 +218,7 @@ export const siteDataRepository = {
   },
 
   async resetSiteData() {
-    const fallback = buildDefaultPayload();
+    const fallback = await buildInitialPayload();
     if (IS_POSTGRES_DRIVER) {
       await saveSiteDataToPostgres(fallback);
     } else {
