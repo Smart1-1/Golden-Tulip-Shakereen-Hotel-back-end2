@@ -4,6 +4,8 @@ const createPalette = (overrides = {}) => ({
   crimson: '#8f0e1f',
   copper: '#c98a41',
   fog: '#f6efe4',
+  textBase: '#f8f2e9',
+  textMuted: '#d7c5ae',
   bgStart: '#040406',
   bgMid: '#0a0d12',
   bgEnd: '#110a0a',
@@ -19,6 +21,12 @@ const createPalette = (overrides = {}) => ({
   glowOne: '#ff5a1f',
   glowTwo: '#8f0e1f',
   fieldBg: '#08090c',
+  surface: '#08090c',
+  accentLine: '#ffb071',
+  accentStrong: '#ffd2aa',
+  success: '#66dc9f',
+  danger: '#f56f6f',
+  info: '#ffb96c',
   ...overrides
 });
 
@@ -55,7 +63,14 @@ export const THEME_PRESETS = [
       headerBorder: '#6fa5ff',
       glowOne: '#2f7eff',
       glowTwo: '#ffd24f',
-      fieldBg: '#08172c'
+      fieldBg: '#08172c',
+      textMuted: '#cad8f6',
+      surface: '#08172c',
+      accentLine: '#7fabff',
+      accentStrong: '#d6e4ff',
+      success: '#5fd6ba',
+      danger: '#ff8f8f',
+      info: '#ffd24f'
     })
   },
   {
@@ -82,10 +97,16 @@ export const THEME_PRESETS = [
       headerBorder: '#f0c56d',
       glowOne: '#f0c56d',
       glowTwo: '#fff1c4',
-      fieldBg: '#231c12'
+      fieldBg: '#231c12',
+      textMuted: '#efe2c4',
+      surface: '#231c12',
+      accentLine: '#f0c56d',
+      accentStrong: '#fff1c4',
+      success: '#8fd89a',
+      danger: '#f29a8c',
+      info: '#f0c56d'
     })
   }
 ];
 
 export const getThemePresetById = (presetId) => THEME_PRESETS.find((preset) => preset.id === presetId) ?? null;
-

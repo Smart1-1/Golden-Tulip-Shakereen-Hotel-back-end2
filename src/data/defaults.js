@@ -19,7 +19,7 @@ export const PAGE_ROUTES = {
 export const HOTEL_CITIES = ['makkah', 'madinah'];
 export const GALLERY_CATEGORIES = ['exterior', 'lobby', 'rooms', 'suites', 'amenities'];
 export const LANGUAGES = ['en', 'ar'];
-export const ADMIN_TABS = ['branding', 'company', 'hotels', 'availability', 'reviews', 'navigation', 'theme', 'animation', 'data'];
+export const ADMIN_TABS = ['branding', 'company', 'hotels', 'availability', 'reviews', 'requests', 'navigation', 'access', 'theme', 'animation', 'data'];
 
 const navLinks = [
   { id: 'nav-home', pageKey: 'home', path: '/', label: t('Home', 'الرئيسية'), visible: true, order: 1 },
@@ -77,6 +77,36 @@ const searchSettings = {
   ]
 };
 
+const buildMapUrl = (query) => `https://maps.google.com/?q=${encodeURIComponent(query)}`;
+
+const siteBranding = {
+  logoMarkText: 'DD',
+  logoImageUrl: '',
+  logoAlt: t('Diyar Al Diwaniyah logo', 'شعار شركة ديار الديوانية'),
+  footerCopyright: t('© 2026 Diyar Al Diwaniyah. All rights reserved.', '© 2026 شركة ديار الديوانية. جميع الحقوق محفوظة.')
+};
+
+const company = {
+  ...companyContent,
+  headOffice: {
+    label: t('Diyar Al Diwaniyah Head Office', 'المقر الرئيسي لشركة ديار الديوانية'),
+    address: t('Makkah Road, Al Madinah Al Munawwarah, Saudi Arabia', 'طريق مكة، المدينة المنورة، المملكة العربية السعودية'),
+    mapUrl: buildMapUrl('Diyar Al Diwaniyah Head Office Al Madinah Al Munawwarah'),
+    latitude: '',
+    longitude: ''
+  }
+};
+
+const hotels = hotelSeedData.map((hotel) => ({
+  ...hotel,
+  logoImageUrl: hotel.logoImageUrl ?? '',
+  logoAlt: hotel.logoAlt ?? {
+    en: `${hotel.name?.en ?? 'Hotel'} logo`,
+    ar: `شعار ${hotel.name?.ar ?? 'الفندق'}`
+  },
+  mapUrl: hotel.mapUrl ?? buildMapUrl(hotel.address?.en ?? hotel.slug ?? 'Hotel')
+}));
+
 export const DEFAULT_SITE_DATA = {
   siteName: t('Diyar Al Diwaniyah', 'شركة ديار الديوانية'),
   siteTagline: t('Hotel Management & Operations', 'لإدارة وتشغيل الفنادق'),
@@ -97,8 +127,9 @@ export const DEFAULT_SITE_DATA = {
   pageVisibility,
   seo,
   pages: pageSeeds,
-  company: companyContent,
-  hotels: hotelSeedData,
+  siteBranding,
+  company,
+  hotels,
   testimonials: brandTestimonialsSeed,
   contactInfo,
   searchSettings
